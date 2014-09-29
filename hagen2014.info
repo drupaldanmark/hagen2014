@@ -46,7 +46,6 @@ stylesheets[all][] = mothership-layout.css
 ;-------------- JS -------------
 
 scripts[] = js/vendor/classie.js
-scripts[] = js/vender/jquery.film_roll.min.js
 scripts[] = js/vendor/jquery.hoverdir.min.js
 scripts[] = js/vendor/jquery.hoverex.min.js
 scripts[] = js/vendor/jquery.isotope.js

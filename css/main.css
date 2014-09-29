@@ -19751,7 +19751,7 @@ you can use the generic selector below, but it's slower:
   font-style: normal;
 }
 
-/* line 36, ../sass/_style.scss */
+/* line 37, ../sass/_style.scss */
 
 * {
   outline: 0 none !important;
@@ -19777,7 +19777,7 @@ you can use the generic selector below, but it's slower:
   }
 }
 
-/* line 44, ../sass/_style.scss */
+/* line 68, ../sass/_style.scss */
 
 .fade-it {
   -webkit-animation: Anim ease-in 1;
@@ -19791,7 +19791,7 @@ you can use the generic selector below, but it's slower:
   animation-duration: 4s;
 }
 
-/* line 57, ../sass/_style.scss */
+/* line 82, ../sass/_style.scss */
 
 .fade-it {
   -webkit-animation-delay: 0.6s;
@@ -19818,7 +19818,7 @@ you can use the generic selector below, but it's slower:
   }
 }
 
-/* line 66, ../sass/_style.scss */
+/* line 115, ../sass/_style.scss */
 
 .fade-it2 {
   -webkit-animation: Anim2 ease-in 1;
@@ -19832,28 +19832,28 @@ you can use the generic selector below, but it's slower:
   animation-duration: 1s;
 }
 
-/* line 79, ../sass/_style.scss */
+/* line 129, ../sass/_style.scss */
 
 .fade-it2 {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
-/* line 84, ../sass/_style.scss */
+/* line 135, ../sass/_style.scss */
 
 ::-moz-selection {
   background: #6ec5e2;
   color: white;
 }
 
-/* line 85, ../sass/_style.scss */
+/* line 140, ../sass/_style.scss */
 
 ::selection {
   background: #6ec5e2;
   color: white;
 }
 
-/* line 87, ../sass/_style.scss */
+/* line 145, ../sass/_style.scss */
 
 h1,
 h2,
@@ -19865,7 +19865,7 @@ h6 {
   padding-bottom: 0.273em;
 }
 
-/* line 88, ../sass/_style.scss */
+/* line 150, ../sass/_style.scss */
 
 h1 a,
 h2 a,
@@ -19876,7 +19876,7 @@ h6 a {
   color: #aaa;
 }
 
-/* line 90, ../sass/_style.scss */
+/* line 154, ../sass/_style.scss */
 
 body {
   background: #FFF;
@@ -19886,19 +19886,19 @@ body {
   font-family: 'latoregular', sans-serif;
 }
 
-/* line 97, ../sass/_style.scss */
+/* line 162, ../sass/_style.scss */
 
 .centered {
   text-align: center;
 }
 
-/* line 100, ../sass/_style.scss */
+/* line 166, ../sass/_style.scss */
 
 .clear {
   padding: 20px;
 }
 
-/* line 103, ../sass/_style.scss */
+/* line 170, ../sass/_style.scss */
 
 h1 {
   font-family: 'latobold', sans-serif;
@@ -19906,7 +19906,7 @@ h1 {
   margin: 0.75em 0.75em 0.25em;
 }
 
-/* line 108, ../sass/_style.scss */
+/* line 176, ../sass/_style.scss */
 
 h2 {
   font-family: 'latobold', sans-serif;
@@ -19914,7 +19914,7 @@ h2 {
   margin-top: 0.33em;
 }
 
-/* line 113, ../sass/_style.scss */
+/* line 182, ../sass/_style.scss */
 
 h3 {
   background: url("../img/line.gif") no-repeat scroll center 55px transparent;
@@ -19927,7 +19927,7 @@ h3 {
   text-transform: uppercase;
 }
 
-/* line 123, ../sass/_style.scss */
+/* line 193, ../sass/_style.scss */
 
 h4 {
   color: #4D4C4C;
@@ -19936,7 +19936,7 @@ h4 {
   text-transform: uppercase;
 }
 
-/* line 130, ../sass/_style.scss */
+/* line 200, ../sass/_style.scss */
 
 .lead {
   color: #686868;
@@ -19944,14 +19944,14 @@ h4 {
 
 /* Link */
 
-/* line 135, ../sass/_style.scss */
+/* line 206, ../sass/_style.scss */
 
 a {
   color: #FFF;
   text-decoration: none;
 }
 
-/* line 139, ../sass/_style.scss */
+/* line 211, ../sass/_style.scss */
 
 a:hover {
   color: #e5e5e5;
@@ -19959,7 +19959,7 @@ a:hover {
 
 /* Paragrah */
 
-/* line 144, ../sass/_style.scss */
+/* line 217, ../sass/_style.scss */
 
 p a {
   color: #aaa;
@@ -19968,7 +19968,7 @@ p a {
   transition: all 0.5s ease-out;
 }
 
-/* line 152, ../sass/_style.scss */
+/* line 226, ../sass/_style.scss */
 
 p a:hover {
   color: #333;
@@ -19976,7 +19976,7 @@ p a:hover {
 
 /* Button */
 
-/* line 157, ../sass/_style.scss */
+/* line 232, ../sass/_style.scss */
 
 .buttom {
   margin-top: 200px;
@@ -19994,7 +19994,7 @@ p a:hover {
   transition: all 0.2s ease-out;
 }
 
-/* line 174, ../sass/_style.scss */
+/* line 250, ../sass/_style.scss */
 
 .buttom:hover {
   background: #93b7ae;
@@ -20003,14 +20003,14 @@ p a:hover {
 
 /* 03. NAVIGATION ================================================== */
 
-/* line 184, ../sass/_style.scss */
+/* line 257, ../sass/_style.scss */
 
 nav #logo {
   float: left;
   z-index: 99999;
 }
 
-/* line 189, ../sass/_style.scss */
+/* line 262, ../sass/_style.scss */
 
 nav {
   z-index: 999;
@@ -20021,7 +20021,7 @@ nav {
 
 /* Some stylesheet reset */
 
-/* line 197, ../sass/_style.scss */
+/* line 270, ../sass/_style.scss */
 
 #nav,
 #nav ul {
@@ -20032,14 +20032,14 @@ nav {
 
 /* The main navigation bar */
 
-/* line 204, ../sass/_style.scss */
+/* line 277, ../sass/_style.scss */
 
 #nav {
   width: 100%;
   /* The menu will take the width of its container */
 }
 
-/* line 207, ../sass/_style.scss */
+/* line 281, ../sass/_style.scss */
 
 #nav > li {
   float: right;
@@ -20049,7 +20049,7 @@ nav {
 
 /* The main navigation links */
 
-/* line 213, ../sass/_style.scss */
+/* line 288, ../sass/_style.scss */
 
 #nav > li > a {
   /* Layout */
@@ -20069,14 +20069,14 @@ nav {
 
 /* The hover state of the links */
 
-/* line 233, ../sass/_style.scss */
+/* line 309, ../sass/_style.scss */
 
 #nav li:hover a,
 #nav li .selected {
   color: #2980b9;
 }
 
-/* line 236, ../sass/_style.scss */
+/* line 313, ../sass/_style.scss */
 
 #nav > li.dropdown > a {
   padding-right: 28px;
@@ -20084,7 +20084,7 @@ nav {
 
 /* The arrow indicating a dropdown menu */
 
-/* line 240, ../sass/_style.scss */
+/* line 318, ../sass/_style.scss */
 
 .dropdown > a::after {
   position: absolute;
@@ -20100,7 +20100,7 @@ nav {
 
 /*  The submenus */
 
-/* line 252, ../sass/_style.scss */
+/* line 331, ../sass/_style.scss */
 
 #nav ul {
   display: block;
@@ -20117,7 +20117,7 @@ nav {
   transition: opacity .22s ease-in;
 }
 
-/* line 268, ../sass/_style.scss */
+/* line 348, ../sass/_style.scss */
 
 #nav ul li {
   display: block;
@@ -20130,14 +20130,14 @@ nav {
 
 /* The submenu appears when its parent is hovered */
 
-/* line 279, ../sass/_style.scss */
+/* line 360, ../sass/_style.scss */
 
 #nav > li:hover > ul {
   left: 0px;
   opacity: 1;
 }
 
-/* line 283, ../sass/_style.scss */
+/* line 365, ../sass/_style.scss */
 
 #nav li:hover > ul > li {
   position: relative;
@@ -20146,7 +20146,7 @@ nav {
 
 /* The submenu links */
 
-/* line 288, ../sass/_style.scss */
+/* line 371, ../sass/_style.scss */
 
 #nav ul li a {
   /* Layout */
@@ -20167,7 +20167,7 @@ nav {
 
 /* Rounded corners for the last submenu link */
 
-/* line 309, ../sass/_style.scss */
+/* line 393, ../sass/_style.scss */
 
 #nav ul > li:last-child > a {
   border-bottom-left-radius: 3px;
@@ -20176,13 +20176,13 @@ nav {
 
 /* Changing the link color on hover */
 
-/* line 314, ../sass/_style.scss */
+/* line 399, ../sass/_style.scss */
 
 #nav ul li:hover > a {
   color: #fff;
 }
 
-/* line 317, ../sass/_style.scss */
+/* line 403, ../sass/_style.scss */
 
 .cbp-af-header {
   position: fixed;
@@ -20198,7 +20198,7 @@ nav {
   transition: height 0.3s;
 }
 
-/* line 330, ../sass/_style.scss */
+/* line 418, ../sass/_style.scss */
 
 .cbp-af-header #nav > li {
   padding: 0;
@@ -20206,20 +20206,20 @@ nav {
 
 /* FOR REDUCING THE HEIGHT OF THE NAVIGATION */
 
-/* line 335, ../sass/_style.scss */
+/* line 424, ../sass/_style.scss */
 
 .cbp-af-header #logo {
   padding: 20px 30px 0px 0px;
   width: 263px;
 }
 
-/* line 339, ../sass/_style.scss */
+/* line 429, ../sass/_style.scss */
 
 .cbp-af-header #nav a {
   line-height: 100px;
 }
 
-/* line 342, ../sass/_style.scss */
+/* line 433, ../sass/_style.scss */
 
 .cbp-af-header.cbp-af-header-shrink #logo {
   padding: 10px 20px 0px 0px;
@@ -20228,7 +20228,7 @@ nav {
 
 /* Transitions and class for reduced height */
 
-/* line 348, ../sass/_style.scss */
+/* line 440, ../sass/_style.scss */
 
 .cbp-af-header #logo,
 .cbp-af-header #nav a {
@@ -20236,13 +20236,13 @@ nav {
   transition: all 0.3s;
 }
 
-/* line 354, ../sass/_style.scss */
+/* line 447, ../sass/_style.scss */
 
 .cbp-af-header.cbp-af-header-shrink {
   height: 60px;
 }
 
-/* line 357, ../sass/_style.scss */
+/* line 451, ../sass/_style.scss */
 
 .cbp-af-header.cbp-af-header-shrink #nav a {
   line-height: 60px;
@@ -20250,21 +20250,21 @@ nav {
 
 /* 04. HEADER SETTINGS ================================================== */
 
-/* line 366, ../sass/_style.scss */
+/* line 457, ../sass/_style.scss */
 
 #header {
-  background: url("../img/headers/drupalcon-big-blurred.jpg") no-repeat center center fixed;
+  background: url("../img/headers/drupalcon-big-blurred-cropped.jpg") no-repeat center center fixed;
   padding: 190px 0 120px 0;
   margin-top: 50px;
 }
 
-/* line 371, ../sass/_style.scss */
+/* line 463, ../sass/_style.scss */
 
 #header h2 {
   color: #FFF;
 }
 
-/* line 374, ../sass/_style.scss */
+/* line 467, ../sass/_style.scss */
 
 #header .lead {
   font: 16px 'latolight', sans-serif;
@@ -20276,7 +20276,7 @@ nav {
 
 /* Section */
 
-/* line 387, ../sass/_style.scss */
+/* line 477, ../sass/_style.scss */
 
 #talks {
   background: #f1f1f1;
@@ -20284,34 +20284,73 @@ nav {
   padding: 40px 0;
 }
 
+/* line 483, ../sass/_style.scss */
+
+#ticket {
+  height: 100%;
+  padding: 40px 0;
+  background: #3498db;
+  border-bottom: 4px solid #2980b9;
+  color: #FFFFFF;
+  font-family: 'latolight', sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 486, ../sass/_style.scss */
+
+#ticket .buttom {
+  background: #3498db;
+  width: 100%;
+}
+
+/* line 497, ../sass/_style.scss */
+
+#ticket .ticketlink {
+  font-size: 18px;
+  line-height: 48px;
+  width: 100%;
+  margin-top: 0px;
+  color: #FFFFFF;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  border-bottom: none;
+}
+
+/* line 509, ../sass/_style.scss */
+
+#ticket .icon {
+  font-size: 18px;
+  padding-left: 9px;
+}
+
 /* Projects Grid */
 
-/* line 399, ../sass/_style.scss */
+/* line 518, ../sass/_style.scss */
 
 #projects_grid {
   overflow: hidden;
 }
 
-/* line 402, ../sass/_style.scss */
+/* line 522, ../sass/_style.scss */
 
 .items {
   clear: both;
 }
 
-/* line 405, ../sass/_style.scss */
+/* line 526, ../sass/_style.scss */
 
 .item {
   width: 100%;
   height: 100%;
 }
 
-/* line 407, ../sass/_style.scss */
+/* line 531, ../sass/_style.scss */
 
 .items img {
   display: block;
 }
 
-/* line 410, ../sass/_style.scss */
+/* line 535, ../sass/_style.scss */
 
 .items:after {
   content: '';
@@ -20321,7 +20360,7 @@ nav {
   visibility: hidden;
 }
 
-/* line 417, ../sass/_style.scss */
+/* line 543, ../sass/_style.scss */
 
 .items a,
 .items a img {
@@ -20329,13 +20368,13 @@ nav {
   position: relative;
 }
 
-/* line 422, ../sass/_style.scss */
+/* line 549, ../sass/_style.scss */
 
 .items a {
   overflow: hidden;
 }
 
-/* line 425, ../sass/_style.scss */
+/* line 553, ../sass/_style.scss */
 
 .items a div {
   position: absolute;
@@ -20345,7 +20384,7 @@ nav {
   cursor: pointer;
 }
 
-/* line 432, ../sass/_style.scss */
+/* line 561, ../sass/_style.scss */
 
 .items a div h5 {
   display: block;
@@ -20358,7 +20397,7 @@ nav {
   text-align: center;
 }
 
-/* line 442, ../sass/_style.scss */
+/* line 572, ../sass/_style.scss */
 
 .items a div span {
   font-size: 14px;
@@ -20370,13 +20409,13 @@ nav {
 
 /* Filter Function */
 
-/* line 451, ../sass/_style.scss */
+/* line 582, ../sass/_style.scss */
 
 .filter {
   padding: 0;
 }
 
-/* line 454, ../sass/_style.scss */
+/* line 586, ../sass/_style.scss */
 
 .filter li {
   font-family: 'latoregular', sans-serif;
@@ -20390,7 +20429,7 @@ nav {
   margin-right: 15px;
 }
 
-/* line 465, ../sass/_style.scss */
+/* line 598, ../sass/_style.scss */
 
 .filter li a:hover,
 .filter li a.active {
@@ -20399,7 +20438,7 @@ nav {
   color: #FFF;
 }
 
-/* line 471, ../sass/_style.scss */
+/* line 605, ../sass/_style.scss */
 
 .filter li a {
   color: #4D4C4C;
@@ -20414,7 +20453,7 @@ nav {
 
 /* Expander of the works Settings */
 
-/* line 485, ../sass/_style.scss */
+/* line 620, ../sass/_style.scss */
 
 .slide_portfolio {
   text-align: center;
@@ -20424,7 +20463,7 @@ nav {
 
 /* Space between img */
 
-/* line 492, ../sass/_style.scss */
+/* line 628, ../sass/_style.scss */
 
 .slide_portfolio img {
   padding: 20px 0;
@@ -20432,7 +20471,7 @@ nav {
 
 /* Title of the Work */
 
-/* line 497, ../sass/_style.scss */
+/* line 634, ../sass/_style.scss */
 
 .slide_portfolio h3 {
   background: url("../img/line.gif") no-repeat scroll center 30px transparent;
@@ -20447,7 +20486,7 @@ nav {
 
 /* Close Icon */
 
-/* line 509, ../sass/_style.scss */
+/* line 647, ../sass/_style.scss */
 
 .slide_portfolio .closeit {
   cursor: pointer;
@@ -20461,21 +20500,21 @@ nav {
 
 }
 
-/* line 519, ../sass/_style.scss */
+/* line 659, ../sass/_style.scss */
 
 .isotope-item {
   z-index: 2;
   display: block !important;
 }
 
-/* line 523, ../sass/_style.scss */
+/* line 664, ../sass/_style.scss */
 
 .isotope-hidden.isotope-item {
   pointer-events: none;
   z-index: 1;
 }
 
-/* line 527, ../sass/_style.scss */
+/* line 669, ../sass/_style.scss */
 
 .isotope,
 .isotope .isotope-item {
@@ -20484,7 +20523,7 @@ nav {
   transition-duration: 1s;
 }
 
-/* line 535, ../sass/_style.scss */
+/* line 678, ../sass/_style.scss */
 
 .isotope {
   -webkit-transition-property: height, width;
@@ -20492,7 +20531,7 @@ nav {
   transition-property: height, width;
 }
 
-/* line 542, ../sass/_style.scss */
+/* line 686, ../sass/_style.scss */
 
 .isotope .isotope-item {
   -webkit-transition-property: -webkit-transform, opacity;
@@ -20500,7 +20539,7 @@ nav {
   transition-property: transform, opacity;
 }
 
-/* line 549, ../sass/_style.scss */
+/* line 694, ../sass/_style.scss */
 
 .isotope.no-transition,
 .isotope.no-transition .isotope-item,
@@ -20514,7 +20553,7 @@ nav {
 
 /* Section */
 
-/* line 567, ../sass/_style.scss */
+/* line 708, ../sass/_style.scss */
 
 #interblock {
   width: 100%;
@@ -20525,7 +20564,7 @@ nav {
 
 /* Blockquote */
 
-/* line 575, ../sass/_style.scss */
+/* line 717, ../sass/_style.scss */
 
 #interblock h2 {
   font-size: 1.75rem;
@@ -20534,7 +20573,7 @@ nav {
 
 /* Text under the Blockquote */
 
-/* line 581, ../sass/_style.scss */
+/* line 724, ../sass/_style.scss */
 
 #interblock p {
   color: #FFF;
@@ -20544,7 +20583,7 @@ nav {
 
 /* Icon button */
 
-/* line 588, ../sass/_style.scss */
+/* line 732, ../sass/_style.scss */
 
 #interblock .buttongo {
   font-size: 50px;
@@ -20552,7 +20591,7 @@ nav {
   text-align: right;
 }
 
-/* line 593, ../sass/_style.scss */
+/* line 738, ../sass/_style.scss */
 
 #interblock .buttongo a {
   cursor: pointer;
@@ -20562,7 +20601,7 @@ nav {
 
 /* Hover Icon button */
 
-/* line 602, ../sass/_style.scss */
+/* line 748, ../sass/_style.scss */
 
 #interblock .buttongo a:hover {
   opacity: 0.7;
@@ -20572,7 +20611,7 @@ nav {
 
 /* Section */
 
-/* line 613, ../sass/_style.scss */
+/* line 756, ../sass/_style.scss */
 
 #schedule {
   padding: 40px 0px 40px 0;
@@ -20581,7 +20620,7 @@ nav {
 
 /* The Title of the service */
 
-/* line 619, ../sass/_style.scss */
+/* line 763, ../sass/_style.scss */
 
 #schedule h3 {
   background: none;
@@ -20592,7 +20631,7 @@ nav {
 
 /* Make the img 100% */
 
-/* line 627, ../sass/_style.scss */
+/* line 772, ../sass/_style.scss */
 
 #schedule img {
   width: 100%;
@@ -20601,7 +20640,7 @@ nav {
 
 /* Style of each service */
 
-/* line 633, ../sass/_style.scss */
+/* line 779, ../sass/_style.scss */
 
 #schedule .service {
   background: #FFF;
@@ -20616,7 +20655,7 @@ nav {
 
 /* Section */
 
-/* line 649, ../sass/_style.scss */
+/* line 792, ../sass/_style.scss */
 
 #speakers {
   padding: 20px 0px 40px 0;
@@ -20625,7 +20664,7 @@ nav {
 
 /* Make the Picture 100% */
 
-/* line 655, ../sass/_style.scss */
+/* line 799, ../sass/_style.scss */
 
 #speakers img {
   width: 100%;
@@ -20633,7 +20672,7 @@ nav {
 
 /* Style of each member block */
 
-/* line 660, ../sass/_style.scss */
+/* line 805, ../sass/_style.scss */
 
 #speakers .member {
   margin-top: 20px;
@@ -20644,7 +20683,7 @@ nav {
 
 /* Name of the member */
 
-/* line 668, ../sass/_style.scss */
+/* line 814, ../sass/_style.scss */
 
 #speakers .member h3 {
   background: none;
@@ -20659,7 +20698,7 @@ nav {
 
 /* Job in the studio */
 
-/* line 680, ../sass/_style.scss */
+/* line 827, ../sass/_style.scss */
 
 #speakers .member h4 {
   text-align: center;
@@ -20669,7 +20708,7 @@ nav {
 
 /* Section */
 
-/* line 691, ../sass/_style.scss */
+/* line 835, ../sass/_style.scss */
 
 #getit {
   width: 100%;
@@ -20680,7 +20719,7 @@ nav {
 
 /* Quote align Center */
 
-/* line 699, ../sass/_style.scss */
+/* line 844, ../sass/_style.scss */
 
 #getit h2 {
   text-align: center;
@@ -20693,7 +20732,7 @@ nav {
 
 /* Section */
 
-/* line 713, ../sass/_style.scss */
+/* line 855, ../sass/_style.scss */
 
 #contact {
   position: relative;
@@ -20701,7 +20740,7 @@ nav {
   background: #f1f1f1;
 }
 
-/* line 717, ../sass/_style.scss */
+/* line 861, ../sass/_style.scss */
 
 #contact > iframe {
   position: absolute;
@@ -20710,14 +20749,14 @@ nav {
 
 /* label */
 
-/* line 723, ../sass/_style.scss */
+/* line 868, ../sass/_style.scss */
 
 .contact form label {
   float: left;
   padding-bottom: 5px;
 }
 
-/* line 727, ../sass/_style.scss */
+/* line 873, ../sass/_style.scss */
 
 .contact form label span {
   color: #D1D1D1;
@@ -20725,7 +20764,7 @@ nav {
 
 /* Input label & textarea setting */
 
-/* line 732, ../sass/_style.scss */
+/* line 879, ../sass/_style.scss */
 
 .contact form input,
 .contact form textarea {
@@ -20746,7 +20785,7 @@ nav {
 
 /* Set a height to the input */
 
-/* line 752, ../sass/_style.scss */
+/* line 900, ../sass/_style.scss */
 
 .contact form input {
   height: 40px;
@@ -20755,7 +20794,7 @@ nav {
 
 /* Set a height to the textarea*/
 
-/* line 758, ../sass/_style.scss */
+/* line 907, ../sass/_style.scss */
 
 .contact form textarea {
   min-height: 150px;
@@ -20764,7 +20803,7 @@ nav {
 
 /* Button Send */
 
-/* line 764, ../sass/_style.scss */
+/* line 914, ../sass/_style.scss */
 
 .contact form .submit {
   height: 50px;
@@ -20786,7 +20825,7 @@ nav {
 
 /* Button Send Hover */
 
-/* line 785, ../sass/_style.scss */
+/* line 936, ../sass/_style.scss */
 
 .contact form .submit:hover {
   background: #93b7ae;
@@ -20795,7 +20834,7 @@ nav {
 
 /* Input & textarea when there's something missing  */
 
-/* line 791, ../sass/_style.scss */
+/* line 943, ../sass/_style.scss */
 
 .contact form input:required,
 .contact form textarea:required {
@@ -20807,7 +20846,7 @@ nav {
 
 /* Input & textarea when valid */
 
-/* line 800, ../sass/_style.scss */
+/* line 953, ../sass/_style.scss */
 
 .contact form input:required:valid,
 .contact form textarea:required:valid {
@@ -20820,7 +20859,7 @@ nav {
 
 /* Input & textarea when invalid */
 
-/* line 810, ../sass/_style.scss */
+/* line 964, ../sass/_style.scss */
 
 .contact form input:focus:invalid,
 .contact form textarea:focus:invalid {
@@ -20829,7 +20868,7 @@ nav {
   box-shadow: 0 0 2px rgba(236, 126, 126, 0.7);
 }
 
-/* line 817, ../sass/_style.scss */
+/* line 971, ../sass/_style.scss */
 
 .row.contact {
   position: relative;
@@ -20840,7 +20879,7 @@ nav {
 
 /* Section */
 
-/* line 829, ../sass/_style.scss */
+/* line 980, ../sass/_style.scss */
 
 #interblock_footer {
   padding: 100px 0;
@@ -20850,7 +20889,7 @@ nav {
 
 /* Blockquote */
 
-/* line 836, ../sass/_style.scss */
+/* line 988, ../sass/_style.scss */
 
 #interblock_footer h2 {
   font-size: 1.75rem;
@@ -20859,7 +20898,7 @@ nav {
 
 /* Text under blockquote */
 
-/* line 842, ../sass/_style.scss */
+/* line 995, ../sass/_style.scss */
 
 #interblock_footer p {
   color: #FFF;
@@ -20869,7 +20908,7 @@ nav {
 
 /* Display inline the icon */
 
-/* line 849, ../sass/_style.scss */
+/* line 1003, ../sass/_style.scss */
 
 #interblock_footer li {
   display: inline;
@@ -20877,7 +20916,7 @@ nav {
 
 /* Padding top for well displayed Icon */
 
-/* line 854, ../sass/_style.scss */
+/* line 1009, ../sass/_style.scss */
 
 #interblock_footer ul {
   padding: 20px 0 0 0;
@@ -20885,7 +20924,7 @@ nav {
 
 /* Styling Icon */
 
-/* line 859, ../sass/_style.scss */
+/* line 1015, ../sass/_style.scss */
 
 #interblock_footer .icon {
   color: #FFF;
@@ -20899,7 +20938,7 @@ nav {
 
 /* Icon Hover */
 
-/* line 872, ../sass/_style.scss */
+/* line 1029, ../sass/_style.scss */
 
 #interblock_footer .icon:hover {
   opacity: 0.7;
@@ -20909,7 +20948,7 @@ nav {
 
 /* Section */
 
-/* line 883, ../sass/_style.scss */
+/* line 1037, ../sass/_style.scss */
 
 #contact_info {
   background: #2980b9;
@@ -20920,7 +20959,7 @@ nav {
 
 /* Color White without bottom Border */
 
-/* line 891, ../sass/_style.scss */
+/* line 1046, ../sass/_style.scss */
 
 #contact_info a {
   color: #FFF;
@@ -20932,7 +20971,7 @@ nav {
 /* Styling for mobile devices */
 
 @media screen and (max-width: 768px) {
-  /* line 905, ../sass/_style.scss */
+  /* line 1057, ../sass/_style.scss */
 
   body,
   html {
@@ -20941,7 +20980,7 @@ nav {
 
   /* Header Lower height */
 
-  /* line 909, ../sass/_style.scss */
+  /* line 1063, ../sass/_style.scss */
 
   #header {
     margin-top: 0px;
@@ -20950,10 +20989,10 @@ nav {
 
   /* Showing Well the background */
 
-  /* line 913, ../sass/_style.scss */
+  /* line 1070, ../sass/_style.scss */
 
   #header {
-    background: url("../img/headers/drupalcon-big-blurred.jpg") 30% 100% no-repeat fixed !important;
+    background: url("../img/headers/drupalcon-big-blurred-cropped.jpg") 30% 100% no-repeat fixed !important;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -20964,7 +21003,7 @@ nav {
 
   /* Align Center the interblock Text & Button */
 
-  /* line 927, ../sass/_style.scss */
+  /* line 1084, ../sass/_style.scss */
 
   #interblock,
   #interblock .buttongo {
@@ -20973,7 +21012,7 @@ nav {
 
   /* Lower height of the interblock footer */
 
-  /* line 931, ../sass/_style.scss */
+  /* line 1090, ../sass/_style.scss */
 
   #interblock_footer {
     padding: 0px 0 20px 0;
@@ -20981,7 +21020,7 @@ nav {
 
   /* Not Showing the text on the interblock Footer */
 
-  /* line 935, ../sass/_style.scss */
+  /* line 1096, ../sass/_style.scss */
 
   #interblock_footer p,
   #interblock_footer h2 {
@@ -20990,14 +21029,14 @@ nav {
 
   /* Bigger Social Icon */
 
-  /* line 939, ../sass/_style.scss */
+  /* line 1102, ../sass/_style.scss */
 
   #interblock_footer .icon {
     font-size: 40px;
     text-align: center;
   }
 
-  /* line 941, ../sass/_style.scss */
+  /* line 1107, ../sass/_style.scss */
 
   #interblock_footer ul {
     text-align: center;
@@ -21005,7 +21044,7 @@ nav {
 
   /* Align center the Contact Info footer text */
 
-  /* line 945, ../sass/_style.scss */
+  /* line 1113, ../sass/_style.scss */
 
   #contact_info p {
     text-align: center;
@@ -21013,13 +21052,13 @@ nav {
 
   /* 100% Width of works Items & IMG */
 
-  /* line 949, ../sass/_style.scss */
+  /* line 1119, ../sass/_style.scss */
 
   #projects_grid .items .item {
     width: 100%;
   }
 
-  /* line 951, ../sass/_style.scss */
+  /* line 1123, ../sass/_style.scss */
 
   #projects_grid .items .item img {
     width: 100%;
@@ -21027,7 +21066,7 @@ nav {
 
   /* Filter Function takes all the width */
 
-  /* line 955, ../sass/_style.scss */
+  /* line 1129, ../sass/_style.scss */
 
   #projects_grid .filter li a {
     width: 100%;
@@ -21036,7 +21075,7 @@ nav {
 
   /* speakers Row takes all the width */
 
-  /* line 959, ../sass/_style.scss */
+  /* line 1136, ../sass/_style.scss */
 
   #speakers .row {
     width: 100%;
@@ -21044,7 +21083,7 @@ nav {
 
   /* 100% of the Member Pictures */
 
-  /* line 963, ../sass/_style.scss */
+  /* line 1142, ../sass/_style.scss */
 
   #speakers .row .member img {
     width: 100%;
@@ -21052,7 +21091,7 @@ nav {
 
   /* Not Showing the interblock button Go To ( useless with iphone ) */
 
-  /* line 967, ../sass/_style.scss */
+  /* line 1148, ../sass/_style.scss */
 
   .buttongo {
     display: none;
@@ -21060,7 +21099,7 @@ nav {
 
   /* Service Settings */
 
-  /* line 971, ../sass/_style.scss */
+  /* line 1154, ../sass/_style.scss */
 
   #schedule .service {
     margin-bottom: 2%;
@@ -21069,7 +21108,7 @@ nav {
 
   /* Align center the Title of each Service */
 
-  /* line 975, ../sass/_style.scss */
+  /* line 1161, ../sass/_style.scss */
 
   #schedule .service h3 {
     text-align: center;
@@ -21077,7 +21116,7 @@ nav {
 
   /* Don't show the Text of each Service ( too much for scrolling ) */
 
-  /* line 979, ../sass/_style.scss */
+  /* line 1167, ../sass/_style.scss */
 
   #schedule .service p {
     display: none;
@@ -21085,7 +21124,7 @@ nav {
 
   /* 100% Width of Each Service Picture */
 
-  /* line 983, ../sass/_style.scss */
+  /* line 1173, ../sass/_style.scss */
 
   #schedule .service img {
     width: 100%;
@@ -21095,26 +21134,26 @@ nav {
 /* 14. MEDIA QUERIES FOR TABLET SETTINGS ================================================== */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 998, ../sass/_style.scss */
+  /* line 1183, ../sass/_style.scss */
 
   #projects_grid .items .item {
     width: 48%;
   }
 
-  /* line 1000, ../sass/_style.scss */
+  /* line 1187, ../sass/_style.scss */
 
   #whatwedo .service p {
     display: block;
   }
 
-  /* line 1002, ../sass/_style.scss */
+  /* line 1191, ../sass/_style.scss */
 
   .buttongo {
     display: block;
     cursor: pointer;
   }
 
-  /* line 1004, ../sass/_style.scss */
+  /* line 1196, ../sass/_style.scss */
 
   #interblock {
     text-align: left;
@@ -21122,7 +21161,7 @@ nav {
 
   /* Lower height of the interblock footer */
 
-  /* line 1008, ../sass/_style.scss */
+  /* line 1202, ../sass/_style.scss */
 
   #interblock_footer {
     padding: 0px 0 20px 0;
@@ -21130,7 +21169,7 @@ nav {
 
   /* Not Showing the text on the interblock Footer */
 
-  /* line 1012, ../sass/_style.scss */
+  /* line 1208, ../sass/_style.scss */
 
   #interblock_footer .eight.columns {
     display: none;
@@ -21138,14 +21177,14 @@ nav {
 
   /* Bigger Social Icon & Align Center the Icon*/
 
-  /* line 1016, ../sass/_style.scss */
+  /* line 1214, ../sass/_style.scss */
 
   #interblock_footer .four.columns {
     width: 100%;
     text-align: center;
   }
 
-  /* line 1018, ../sass/_style.scss */
+  /* line 1219, ../sass/_style.scss */
 
   #interblock_footer .icon {
     font-size: 40px;
@@ -21154,13 +21193,16 @@ nav {
 
 /* SPONSORS ================================================== */
 
-/* line 1025, ../sass/_style.scss */
+/* line 1227, ../sass/_style.scss */
 
-#sponsors .film_roll_prev,
-.film_roll_next {
-  background: transparent !important;
-  border: 0 none !important;
-  color: #4d4c4c !important;
+.sponsors {
+  background: #3498db;
+}
+
+/* line 1230, ../sass/_style.scss */
+
+.sponsors h3 {
+  color: #ffffff;
 }
 
 /* line 1, ../sass/_overwrites.scss */
