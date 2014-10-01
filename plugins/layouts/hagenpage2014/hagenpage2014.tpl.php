@@ -129,8 +129,7 @@
     <div class="row">
       <div class="eight columns">
         <h2>Practical information</h2>
-        <p>Drupalhagen (Probably the best camp in the world) will be held on Amager at <br> Det
-          Informationsvidenskabelige Akademi Birketinget 6 2300 København</p>
+        <p>Will be updated soon'ish!</p>
       </div>
 
       <div class="four columns text-right ">
