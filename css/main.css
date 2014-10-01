@@ -20258,13 +20258,14 @@ nav {
   margin-top: 50px;
 }
 
-/* line 463, ../sass/_style.scss */
+/* line 464, ../sass/_style.scss */
 
+#header h1,
 #header h2 {
   color: #FFF;
 }
 
-/* line 467, ../sass/_style.scss */
+/* line 470, ../sass/_style.scss */
 
 #header .lead {
   font: 16px 'latolight', sans-serif;
@@ -20276,7 +20277,7 @@ nav {
 
 /* Section */
 
-/* line 477, ../sass/_style.scss */
+/* line 480, ../sass/_style.scss */
 
 #talks {
   background: #f1f1f1;
@@ -20284,7 +20285,7 @@ nav {
   padding: 40px 0;
 }
 
-/* line 483, ../sass/_style.scss */
+/* line 486, ../sass/_style.scss */
 
 #ticket {
   height: 100%;
@@ -20296,14 +20297,14 @@ nav {
   text-transform: uppercase;
 }
 
-/* line 486, ../sass/_style.scss */
+/* line 489, ../sass/_style.scss */
 
 #ticket .buttom {
   background: #3498db;
   width: 100%;
 }
 
-/* line 497, ../sass/_style.scss */
+/* line 500, ../sass/_style.scss */
 
 #ticket .ticketlink {
   font-size: 18px;
@@ -20316,7 +20317,7 @@ nav {
   border-bottom: none;
 }
 
-/* line 509, ../sass/_style.scss */
+/* line 512, ../sass/_style.scss */
 
 #ticket .icon {
   font-size: 18px;
@@ -20325,32 +20326,32 @@ nav {
 
 /* Projects Grid */
 
-/* line 518, ../sass/_style.scss */
+/* line 521, ../sass/_style.scss */
 
 #projects_grid {
   overflow: hidden;
 }
 
-/* line 522, ../sass/_style.scss */
+/* line 525, ../sass/_style.scss */
 
 .items {
   clear: both;
 }
 
-/* line 526, ../sass/_style.scss */
+/* line 529, ../sass/_style.scss */
 
 .item {
   width: 100%;
   height: 100%;
 }
 
-/* line 531, ../sass/_style.scss */
+/* line 534, ../sass/_style.scss */
 
 .items img {
   display: block;
 }
 
-/* line 535, ../sass/_style.scss */
+/* line 538, ../sass/_style.scss */
 
 .items:after {
   content: '';
@@ -20360,7 +20361,7 @@ nav {
   visibility: hidden;
 }
 
-/* line 543, ../sass/_style.scss */
+/* line 546, ../sass/_style.scss */
 
 .items a,
 .items a img {
@@ -20368,13 +20369,13 @@ nav {
   position: relative;
 }
 
-/* line 549, ../sass/_style.scss */
+/* line 552, ../sass/_style.scss */
 
 .items a {
   overflow: hidden;
 }
 
-/* line 553, ../sass/_style.scss */
+/* line 556, ../sass/_style.scss */
 
 .items a div {
   position: absolute;
@@ -20384,7 +20385,7 @@ nav {
   cursor: pointer;
 }
 
-/* line 561, ../sass/_style.scss */
+/* line 564, ../sass/_style.scss */
 
 .items a div h5 {
   display: block;
@@ -20397,7 +20398,7 @@ nav {
   text-align: center;
 }
 
-/* line 572, ../sass/_style.scss */
+/* line 575, ../sass/_style.scss */
 
 .items a div span {
   font-size: 14px;
@@ -20409,13 +20410,13 @@ nav {
 
 /* Filter Function */
 
-/* line 582, ../sass/_style.scss */
+/* line 585, ../sass/_style.scss */
 
 .filter {
   padding: 0;
 }
 
-/* line 586, ../sass/_style.scss */
+/* line 589, ../sass/_style.scss */
 
 .filter li {
   font-family: 'latoregular', sans-serif;
@@ -20429,7 +20430,7 @@ nav {
   margin-right: 15px;
 }
 
-/* line 598, ../sass/_style.scss */
+/* line 601, ../sass/_style.scss */
 
 .filter li a:hover,
 .filter li a.active {
@@ -20438,7 +20439,7 @@ nav {
   color: #FFF;
 }
 
-/* line 605, ../sass/_style.scss */
+/* line 608, ../sass/_style.scss */
 
 .filter li a {
   color: #4D4C4C;
@@ -20453,7 +20454,7 @@ nav {
 
 /* Expander of the works Settings */
 
-/* line 620, ../sass/_style.scss */
+/* line 623, ../sass/_style.scss */
 
 .slide_portfolio {
   text-align: center;
@@ -20463,7 +20464,7 @@ nav {
 
 /* Space between img */
 
-/* line 628, ../sass/_style.scss */
+/* line 631, ../sass/_style.scss */
 
 .slide_portfolio img {
   padding: 20px 0;
@@ -20471,7 +20472,7 @@ nav {
 
 /* Title of the Work */
 
-/* line 634, ../sass/_style.scss */
+/* line 637, ../sass/_style.scss */
 
 .slide_portfolio h3 {
   background: url("../img/line.gif") no-repeat scroll center 30px transparent;
@@ -20486,7 +20487,7 @@ nav {
 
 /* Close Icon */
 
-/* line 647, ../sass/_style.scss */
+/* line 650, ../sass/_style.scss */
 
 .slide_portfolio .closeit {
   cursor: pointer;
@@ -20500,21 +20501,21 @@ nav {
 
 }
 
-/* line 659, ../sass/_style.scss */
+/* line 662, ../sass/_style.scss */
 
 .isotope-item {
   z-index: 2;
   display: block !important;
 }
 
-/* line 664, ../sass/_style.scss */
+/* line 667, ../sass/_style.scss */
 
 .isotope-hidden.isotope-item {
   pointer-events: none;
   z-index: 1;
 }
 
-/* line 669, ../sass/_style.scss */
+/* line 672, ../sass/_style.scss */
 
 .isotope,
 .isotope .isotope-item {
@@ -20523,7 +20524,7 @@ nav {
   transition-duration: 1s;
 }
 
-/* line 678, ../sass/_style.scss */
+/* line 681, ../sass/_style.scss */
 
 .isotope {
   -webkit-transition-property: height, width;
@@ -20531,7 +20532,7 @@ nav {
   transition-property: height, width;
 }
 
-/* line 686, ../sass/_style.scss */
+/* line 689, ../sass/_style.scss */
 
 .isotope .isotope-item {
   -webkit-transition-property: -webkit-transform, opacity;
@@ -20539,7 +20540,7 @@ nav {
   transition-property: transform, opacity;
 }
 
-/* line 694, ../sass/_style.scss */
+/* line 697, ../sass/_style.scss */
 
 .isotope.no-transition,
 .isotope.no-transition .isotope-item,
@@ -20553,7 +20554,7 @@ nav {
 
 /* Section */
 
-/* line 708, ../sass/_style.scss */
+/* line 711, ../sass/_style.scss */
 
 #interblock {
   width: 100%;
@@ -20564,7 +20565,7 @@ nav {
 
 /* Blockquote */
 
-/* line 717, ../sass/_style.scss */
+/* line 720, ../sass/_style.scss */
 
 #interblock h2 {
   font-size: 1.75rem;
@@ -20573,7 +20574,7 @@ nav {
 
 /* Text under the Blockquote */
 
-/* line 724, ../sass/_style.scss */
+/* line 727, ../sass/_style.scss */
 
 #interblock p {
   color: #FFF;
@@ -20583,7 +20584,7 @@ nav {
 
 /* Icon button */
 
-/* line 732, ../sass/_style.scss */
+/* line 735, ../sass/_style.scss */
 
 #interblock .buttongo {
   font-size: 50px;
@@ -20591,7 +20592,7 @@ nav {
   text-align: right;
 }
 
-/* line 738, ../sass/_style.scss */
+/* line 741, ../sass/_style.scss */
 
 #interblock .buttongo a {
   cursor: pointer;
@@ -20601,7 +20602,7 @@ nav {
 
 /* Hover Icon button */
 
-/* line 748, ../sass/_style.scss */
+/* line 751, ../sass/_style.scss */
 
 #interblock .buttongo a:hover {
   opacity: 0.7;
@@ -20611,7 +20612,7 @@ nav {
 
 /* Section */
 
-/* line 756, ../sass/_style.scss */
+/* line 759, ../sass/_style.scss */
 
 #schedule {
   padding: 40px 0px 40px 0;
@@ -20620,7 +20621,7 @@ nav {
 
 /* The Title of the service */
 
-/* line 763, ../sass/_style.scss */
+/* line 766, ../sass/_style.scss */
 
 #schedule h3 {
   background: none;
@@ -20631,7 +20632,7 @@ nav {
 
 /* Make the img 100% */
 
-/* line 772, ../sass/_style.scss */
+/* line 775, ../sass/_style.scss */
 
 #schedule img {
   width: 100%;
@@ -20640,7 +20641,7 @@ nav {
 
 /* Style of each service */
 
-/* line 779, ../sass/_style.scss */
+/* line 782, ../sass/_style.scss */
 
 #schedule .service {
   background: #FFF;
@@ -20655,7 +20656,7 @@ nav {
 
 /* Section */
 
-/* line 792, ../sass/_style.scss */
+/* line 795, ../sass/_style.scss */
 
 #speakers {
   padding: 20px 0px 40px 0;
@@ -20664,7 +20665,7 @@ nav {
 
 /* Make the Picture 100% */
 
-/* line 799, ../sass/_style.scss */
+/* line 802, ../sass/_style.scss */
 
 #speakers img {
   width: 100%;
@@ -20672,7 +20673,7 @@ nav {
 
 /* Style of each member block */
 
-/* line 805, ../sass/_style.scss */
+/* line 808, ../sass/_style.scss */
 
 #speakers .member {
   margin-top: 20px;
@@ -20683,7 +20684,7 @@ nav {
 
 /* Name of the member */
 
-/* line 814, ../sass/_style.scss */
+/* line 817, ../sass/_style.scss */
 
 #speakers .member h3 {
   background: none;
@@ -20698,7 +20699,7 @@ nav {
 
 /* Job in the studio */
 
-/* line 827, ../sass/_style.scss */
+/* line 830, ../sass/_style.scss */
 
 #speakers .member h4 {
   text-align: center;
@@ -20708,7 +20709,7 @@ nav {
 
 /* Section */
 
-/* line 835, ../sass/_style.scss */
+/* line 838, ../sass/_style.scss */
 
 #getit {
   width: 100%;
@@ -20719,7 +20720,7 @@ nav {
 
 /* Quote align Center */
 
-/* line 844, ../sass/_style.scss */
+/* line 847, ../sass/_style.scss */
 
 #getit h2 {
   text-align: center;
@@ -20732,7 +20733,7 @@ nav {
 
 /* Section */
 
-/* line 855, ../sass/_style.scss */
+/* line 858, ../sass/_style.scss */
 
 #contact {
   position: relative;
@@ -20740,7 +20741,7 @@ nav {
   background: #f1f1f1;
 }
 
-/* line 861, ../sass/_style.scss */
+/* line 864, ../sass/_style.scss */
 
 #contact > iframe {
   position: absolute;
@@ -20749,14 +20750,14 @@ nav {
 
 /* label */
 
-/* line 868, ../sass/_style.scss */
+/* line 871, ../sass/_style.scss */
 
 .contact form label {
   float: left;
   padding-bottom: 5px;
 }
 
-/* line 873, ../sass/_style.scss */
+/* line 876, ../sass/_style.scss */
 
 .contact form label span {
   color: #D1D1D1;
@@ -20764,7 +20765,7 @@ nav {
 
 /* Input label & textarea setting */
 
-/* line 879, ../sass/_style.scss */
+/* line 882, ../sass/_style.scss */
 
 .contact form input,
 .contact form textarea {
@@ -20785,7 +20786,7 @@ nav {
 
 /* Set a height to the input */
 
-/* line 900, ../sass/_style.scss */
+/* line 903, ../sass/_style.scss */
 
 .contact form input {
   height: 40px;
@@ -20794,7 +20795,7 @@ nav {
 
 /* Set a height to the textarea*/
 
-/* line 907, ../sass/_style.scss */
+/* line 910, ../sass/_style.scss */
 
 .contact form textarea {
   min-height: 150px;
@@ -20803,7 +20804,7 @@ nav {
 
 /* Button Send */
 
-/* line 914, ../sass/_style.scss */
+/* line 917, ../sass/_style.scss */
 
 .contact form .submit {
   height: 50px;
@@ -20825,7 +20826,7 @@ nav {
 
 /* Button Send Hover */
 
-/* line 936, ../sass/_style.scss */
+/* line 939, ../sass/_style.scss */
 
 .contact form .submit:hover {
   background: #93b7ae;
@@ -20834,7 +20835,7 @@ nav {
 
 /* Input & textarea when there's something missing  */
 
-/* line 943, ../sass/_style.scss */
+/* line 946, ../sass/_style.scss */
 
 .contact form input:required,
 .contact form textarea:required {
@@ -20846,7 +20847,7 @@ nav {
 
 /* Input & textarea when valid */
 
-/* line 953, ../sass/_style.scss */
+/* line 956, ../sass/_style.scss */
 
 .contact form input:required:valid,
 .contact form textarea:required:valid {
@@ -20859,7 +20860,7 @@ nav {
 
 /* Input & textarea when invalid */
 
-/* line 964, ../sass/_style.scss */
+/* line 967, ../sass/_style.scss */
 
 .contact form input:focus:invalid,
 .contact form textarea:focus:invalid {
@@ -20868,7 +20869,7 @@ nav {
   box-shadow: 0 0 2px rgba(236, 126, 126, 0.7);
 }
 
-/* line 971, ../sass/_style.scss */
+/* line 974, ../sass/_style.scss */
 
 .row.contact {
   position: relative;
@@ -20879,7 +20880,7 @@ nav {
 
 /* Section */
 
-/* line 980, ../sass/_style.scss */
+/* line 983, ../sass/_style.scss */
 
 #interblock_footer {
   padding: 100px 0;
@@ -20889,7 +20890,7 @@ nav {
 
 /* Blockquote */
 
-/* line 988, ../sass/_style.scss */
+/* line 991, ../sass/_style.scss */
 
 #interblock_footer h2 {
   font-size: 1.75rem;
@@ -20898,7 +20899,7 @@ nav {
 
 /* Text under blockquote */
 
-/* line 995, ../sass/_style.scss */
+/* line 998, ../sass/_style.scss */
 
 #interblock_footer p {
   color: #FFF;
@@ -20908,7 +20909,7 @@ nav {
 
 /* Display inline the icon */
 
-/* line 1003, ../sass/_style.scss */
+/* line 1006, ../sass/_style.scss */
 
 #interblock_footer li {
   display: inline;
@@ -20916,7 +20917,7 @@ nav {
 
 /* Padding top for well displayed Icon */
 
-/* line 1009, ../sass/_style.scss */
+/* line 1012, ../sass/_style.scss */
 
 #interblock_footer ul {
   padding: 20px 0 0 0;
@@ -20924,7 +20925,7 @@ nav {
 
 /* Styling Icon */
 
-/* line 1015, ../sass/_style.scss */
+/* line 1018, ../sass/_style.scss */
 
 #interblock_footer .icon {
   color: #FFF;
@@ -20938,7 +20939,7 @@ nav {
 
 /* Icon Hover */
 
-/* line 1029, ../sass/_style.scss */
+/* line 1032, ../sass/_style.scss */
 
 #interblock_footer .icon:hover {
   opacity: 0.7;
@@ -20948,7 +20949,7 @@ nav {
 
 /* Section */
 
-/* line 1037, ../sass/_style.scss */
+/* line 1040, ../sass/_style.scss */
 
 #contact_info {
   background: #2980b9;
@@ -20959,7 +20960,7 @@ nav {
 
 /* Color White without bottom Border */
 
-/* line 1046, ../sass/_style.scss */
+/* line 1049, ../sass/_style.scss */
 
 #contact_info a {
   color: #FFF;
@@ -20971,7 +20972,7 @@ nav {
 /* Styling for mobile devices */
 
 @media screen and (max-width: 768px) {
-  /* line 1057, ../sass/_style.scss */
+  /* line 1060, ../sass/_style.scss */
 
   body,
   html {
@@ -20980,7 +20981,7 @@ nav {
 
   /* Header Lower height */
 
-  /* line 1063, ../sass/_style.scss */
+  /* line 1066, ../sass/_style.scss */
 
   #header {
     margin-top: 0px;
@@ -20989,7 +20990,7 @@ nav {
 
   /* Showing Well the background */
 
-  /* line 1070, ../sass/_style.scss */
+  /* line 1073, ../sass/_style.scss */
 
   #header {
     background: url("../img/headers/drupalcon-big-blurred-cropped.jpg") 30% 100% no-repeat fixed !important;
@@ -21003,7 +21004,7 @@ nav {
 
   /* Align Center the interblock Text & Button */
 
-  /* line 1084, ../sass/_style.scss */
+  /* line 1087, ../sass/_style.scss */
 
   #interblock,
   #interblock .buttongo {
@@ -21012,7 +21013,7 @@ nav {
 
   /* Lower height of the interblock footer */
 
-  /* line 1090, ../sass/_style.scss */
+  /* line 1093, ../sass/_style.scss */
 
   #interblock_footer {
     padding: 0px 0 20px 0;
@@ -21020,7 +21021,7 @@ nav {
 
   /* Not Showing the text on the interblock Footer */
 
-  /* line 1096, ../sass/_style.scss */
+  /* line 1099, ../sass/_style.scss */
 
   #interblock_footer p,
   #interblock_footer h2 {
@@ -21029,14 +21030,14 @@ nav {
 
   /* Bigger Social Icon */
 
-  /* line 1102, ../sass/_style.scss */
+  /* line 1105, ../sass/_style.scss */
 
   #interblock_footer .icon {
     font-size: 40px;
     text-align: center;
   }
 
-  /* line 1107, ../sass/_style.scss */
+  /* line 1110, ../sass/_style.scss */
 
   #interblock_footer ul {
     text-align: center;
@@ -21044,7 +21045,7 @@ nav {
 
   /* Align center the Contact Info footer text */
 
-  /* line 1113, ../sass/_style.scss */
+  /* line 1116, ../sass/_style.scss */
 
   #contact_info p {
     text-align: center;
@@ -21052,13 +21053,13 @@ nav {
 
   /* 100% Width of works Items & IMG */
 
-  /* line 1119, ../sass/_style.scss */
+  /* line 1122, ../sass/_style.scss */
 
   #projects_grid .items .item {
     width: 100%;
   }
 
-  /* line 1123, ../sass/_style.scss */
+  /* line 1126, ../sass/_style.scss */
 
   #projects_grid .items .item img {
     width: 100%;
@@ -21066,7 +21067,7 @@ nav {
 
   /* Filter Function takes all the width */
 
-  /* line 1129, ../sass/_style.scss */
+  /* line 1132, ../sass/_style.scss */
 
   #projects_grid .filter li a {
     width: 100%;
@@ -21075,7 +21076,7 @@ nav {
 
   /* speakers Row takes all the width */
 
-  /* line 1136, ../sass/_style.scss */
+  /* line 1139, ../sass/_style.scss */
 
   #speakers .row {
     width: 100%;
@@ -21083,7 +21084,7 @@ nav {
 
   /* 100% of the Member Pictures */
 
-  /* line 1142, ../sass/_style.scss */
+  /* line 1145, ../sass/_style.scss */
 
   #speakers .row .member img {
     width: 100%;
@@ -21091,7 +21092,7 @@ nav {
 
   /* Not Showing the interblock button Go To ( useless with iphone ) */
 
-  /* line 1148, ../sass/_style.scss */
+  /* line 1151, ../sass/_style.scss */
 
   .buttongo {
     display: none;
@@ -21099,7 +21100,7 @@ nav {
 
   /* Service Settings */
 
-  /* line 1154, ../sass/_style.scss */
+  /* line 1157, ../sass/_style.scss */
 
   #schedule .service {
     margin-bottom: 2%;
@@ -21108,7 +21109,7 @@ nav {
 
   /* Align center the Title of each Service */
 
-  /* line 1161, ../sass/_style.scss */
+  /* line 1164, ../sass/_style.scss */
 
   #schedule .service h3 {
     text-align: center;
@@ -21116,7 +21117,7 @@ nav {
 
   /* Don't show the Text of each Service ( too much for scrolling ) */
 
-  /* line 1167, ../sass/_style.scss */
+  /* line 1170, ../sass/_style.scss */
 
   #schedule .service p {
     display: none;
@@ -21124,7 +21125,7 @@ nav {
 
   /* 100% Width of Each Service Picture */
 
-  /* line 1173, ../sass/_style.scss */
+  /* line 1176, ../sass/_style.scss */
 
   #schedule .service img {
     width: 100%;
@@ -21134,26 +21135,26 @@ nav {
 /* 14. MEDIA QUERIES FOR TABLET SETTINGS ================================================== */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 1183, ../sass/_style.scss */
+  /* line 1186, ../sass/_style.scss */
 
   #projects_grid .items .item {
     width: 48%;
   }
 
-  /* line 1187, ../sass/_style.scss */
+  /* line 1190, ../sass/_style.scss */
 
   #whatwedo .service p {
     display: block;
   }
 
-  /* line 1191, ../sass/_style.scss */
+  /* line 1194, ../sass/_style.scss */
 
   .buttongo {
     display: block;
     cursor: pointer;
   }
 
-  /* line 1196, ../sass/_style.scss */
+  /* line 1199, ../sass/_style.scss */
 
   #interblock {
     text-align: left;
@@ -21161,7 +21162,7 @@ nav {
 
   /* Lower height of the interblock footer */
 
-  /* line 1202, ../sass/_style.scss */
+  /* line 1205, ../sass/_style.scss */
 
   #interblock_footer {
     padding: 0px 0 20px 0;
@@ -21169,7 +21170,7 @@ nav {
 
   /* Not Showing the text on the interblock Footer */
 
-  /* line 1208, ../sass/_style.scss */
+  /* line 1211, ../sass/_style.scss */
 
   #interblock_footer .eight.columns {
     display: none;
@@ -21177,14 +21178,14 @@ nav {
 
   /* Bigger Social Icon & Align Center the Icon*/
 
-  /* line 1214, ../sass/_style.scss */
+  /* line 1217, ../sass/_style.scss */
 
   #interblock_footer .four.columns {
     width: 100%;
     text-align: center;
   }
 
-  /* line 1219, ../sass/_style.scss */
+  /* line 1222, ../sass/_style.scss */
 
   #interblock_footer .icon {
     font-size: 40px;
@@ -21193,13 +21194,13 @@ nav {
 
 /* SPONSORS ================================================== */
 
-/* line 1227, ../sass/_style.scss */
+/* line 1230, ../sass/_style.scss */
 
 .sponsors {
   background: #3498db;
 }
 
-/* line 1230, ../sass/_style.scss */
+/* line 1233, ../sass/_style.scss */
 
 .sponsors h3 {
   color: #ffffff;

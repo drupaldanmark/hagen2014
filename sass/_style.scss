@@ -460,9 +460,12 @@ nav {
   margin-top: 50px;
 }
 
-#header h2 {
-  color: #FFF;
+#header {
+  h1, h2 {
+    color: #FFF;
+  }
 }
+
 
 #header .lead {
   font: 16px 'latolight', sans-serif;
