@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 /*! normalize.css v1.1.1 | MIT License | git.io/normalize */
 
 /* ==========================================================================
@@ -15,7 +14,7 @@
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 
-/* line 11, ../sass/inc/_normalize.scss */
+/* line 22, ../sass/inc/_normalize.scss */
 
 article,
 aside,
@@ -36,7 +35,7 @@ summary {
  * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
 
-/* line 30, ../sass/inc/_normalize.scss */
+/* line 32, ../sass/inc/_normalize.scss */
 
 audio,
 canvas,
@@ -104,7 +103,7 @@ html {
  * elements.
  */
 
-/* line 85, ../sass/inc/_normalize.scss */
+/* line 89, ../sass/inc/_normalize.scss */
 
 html,
 button,
@@ -142,7 +141,7 @@ a:focus {
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
-/* line 117, ../sass/inc/_normalize.scss */
+/* line 118, ../sass/inc/_normalize.scss */
 
 a:active,
 a:hover {
@@ -215,7 +214,7 @@ abbr[title] {
  * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
  */
 
-/* line 174, ../sass/inc/_normalize.scss */
+/* line 175, ../sass/inc/_normalize.scss */
 
 b,
 strong {
@@ -247,6 +246,7 @@ dfn {
 
 hr {
   -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
@@ -266,7 +266,7 @@ mark {
  * Address margins set differently in IE 6/7.
  */
 
-/* line 215, ../sass/inc/_normalize.scss */
+/* line 216, ../sass/inc/_normalize.scss */
 
 p,
 pre {
@@ -277,7 +277,7 @@ pre {
  * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
 
-/* line 224, ../sass/inc/_normalize.scss */
+/* line 227, ../sass/inc/_normalize.scss */
 
 code,
 kbd,
@@ -314,7 +314,7 @@ q {
  * Address `quotes` property not supported in Safari 4.
  */
 
-/* line 255, ../sass/inc/_normalize.scss */
+/* line 256, ../sass/inc/_normalize.scss */
 
 q:before,
 q:after {
@@ -336,7 +336,7 @@ small {
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
 
-/* line 273, ../sass/inc/_normalize.scss */
+/* line 274, ../sass/inc/_normalize.scss */
 
 sub,
 sup {
@@ -366,7 +366,7 @@ sub {
  * Address margins set differently in IE 6/7.
  */
 
-/* line 297, ../sass/inc/_normalize.scss */
+/* line 300, ../sass/inc/_normalize.scss */
 
 dl,
 menu,
@@ -385,7 +385,7 @@ dd {
  * Address paddings set differently in IE 6/7.
  */
 
-/* line 312, ../sass/inc/_normalize.scss */
+/* line 314, ../sass/inc/_normalize.scss */
 
 menu,
 ol,
@@ -397,7 +397,7 @@ ul {
  * Correct list images handled incorrectly in IE 7.
  */
 
-/* line 322, ../sass/inc/_normalize.scss */
+/* line 323, ../sass/inc/_normalize.scss */
 
 nav ul,
 nav ol {
@@ -498,7 +498,7 @@ legend {
  * 3. Improve appearance and consistency in all browsers.
  */
 
-/* line 404, ../sass/inc/_normalize.scss */
+/* line 407, ../sass/inc/_normalize.scss */
 
 button,
 input,
@@ -519,7 +519,7 @@ textarea {
  * the UA stylesheet.
  */
 
-/* line 419, ../sass/inc/_normalize.scss */
+/* line 420, ../sass/inc/_normalize.scss */
 
 button,
 input {
@@ -533,7 +533,7 @@ input {
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
 
-/* line 431, ../sass/inc/_normalize.scss */
+/* line 432, ../sass/inc/_normalize.scss */
 
 button,
 select {
@@ -550,7 +550,7 @@ select {
  *    Known issue: inner spacing remains in IE 6.
  */
 
-/* line 446, ../sass/inc/_normalize.scss */
+/* line 449, ../sass/inc/_normalize.scss */
 
 button,
 html input[type="button"],
@@ -568,7 +568,7 @@ input[type="submit"] {
  * Re-set default cursor for disabled elements.
  */
 
-/* line 459, ../sass/inc/_normalize.scss */
+/* line 460, ../sass/inc/_normalize.scss */
 
 button[disabled],
 html input[disabled] {
@@ -582,10 +582,11 @@ html input[disabled] {
  *    Known issue: excess padding remains in IE 6.
  */
 
-/* line 471, ../sass/inc/_normalize.scss */
+/* line 472, ../sass/inc/_normalize.scss */
 
 input[type="checkbox"],
 input[type="radio"] {
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
@@ -609,6 +610,7 @@ input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box;
 }
@@ -618,7 +620,7 @@ input[type="search"] {
  * on OS X.
  */
 
-/* line 497, ../sass/inc/_normalize.scss */
+/* line 498, ../sass/inc/_normalize.scss */
 
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
@@ -629,7 +631,7 @@ input[type="search"]::-webkit-search-decoration {
  * Remove inner padding and border in Firefox 3+.
  */
 
-/* line 506, ../sass/inc/_normalize.scss */
+/* line 507, ../sass/inc/_normalize.scss */
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
@@ -669,6 +671,7 @@ table {
 /* line 2, ../sass/inc/neat/grid/_grid.scss */
 
 * {
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -692,7 +695,7 @@ table caption {
   text-align: center;
 }
 
-/* line 16, ../sass/inc/pure/tables/css/_tables.scss */
+/* line 17, ../sass/inc/pure/tables/css/_tables.scss */
 
 table td,
 table th {
@@ -707,7 +710,7 @@ table th {
   /* cell padding */
 }
 
-/* line 25, ../sass/inc/pure/tables/css/_tables.scss */
+/* line 26, ../sass/inc/pure/tables/css/_tables.scss */
 
 table td:first-child,
 table th:first-child {
@@ -757,7 +760,7 @@ table-odd td {
   border-bottom: 1px solid #cbcbcb;
 }
 
-/* line 58, ../sass/inc/pure/tables/css/_tables.scss */
+/* line 59, ../sass/inc/pure/tables/css/_tables.scss */
 
 .table-bordered tbody > tr:last-child td,
 .table-horizontal tbody > tr:last-child td {
@@ -766,7 +769,7 @@ table-odd td {
 
 /* HORIZONTAL BORDERED TABLES */
 
-/* line 66, ../sass/inc/pure/tables/css/_tables.scss */
+/* line 67, ../sass/inc/pure/tables/css/_tables.scss */
 
 .table-horizontal td,
 .table-horizontal th {
@@ -833,7 +836,7 @@ form legend {
  * 3. Improves appearance and consistency in all browsers.
  */
 
-/* line 45, ../sass/inc/pure/forms/css/_forms-core.scss */
+/* line 48, ../sass/inc/pure/forms/css/_forms-core.scss */
 
 form button,
 form input,
@@ -854,7 +857,7 @@ form textarea {
  * the UA stylesheet.
  */
 
-/* line 60, ../sass/inc/pure/forms/css/_forms-core.scss */
+/* line 61, ../sass/inc/pure/forms/css/_forms-core.scss */
 
 form button,
 form input {
@@ -871,7 +874,7 @@ form input {
  *    Known issue: inner spacing remains in IE 6.
  */
 
-/* line 75, ../sass/inc/pure/forms/css/_forms-core.scss */
+/* line 78, ../sass/inc/pure/forms/css/_forms-core.scss */
 
 form button,
 form input[type="button"],
@@ -889,7 +892,7 @@ form input[type="submit"] {
  * Re-set default cursor for disabled elements.
  */
 
-/* line 88, ../sass/inc/pure/forms/css/_forms-core.scss */
+/* line 89, ../sass/inc/pure/forms/css/_forms-core.scss */
 
 form button[disabled],
 form input[disabled] {
@@ -903,10 +906,11 @@ form input[disabled] {
  *    Known issue: excess padding remains in IE 6.
  */
 
-/* line 100, ../sass/inc/pure/forms/css/_forms-core.scss */
+/* line 101, ../sass/inc/pure/forms/css/_forms-core.scss */
 
 form input[type="checkbox"],
 form input[type="radio"] {
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
@@ -930,6 +934,7 @@ form input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box;
 }
@@ -939,7 +944,7 @@ form input[type="search"] {
  * on OS X.
  */
 
-/* line 126, ../sass/inc/pure/forms/css/_forms-core.scss */
+/* line 127, ../sass/inc/pure/forms/css/_forms-core.scss */
 
 form input[type="search"]::-webkit-search-cancel-button,
 form input[type="search"]::-webkit-search-decoration {
@@ -950,7 +955,7 @@ form input[type="search"]::-webkit-search-decoration {
  * Removes inner padding and border in Firefox 3+.
  */
 
-/* line 135, ../sass/inc/pure/forms/css/_forms-core.scss */
+/* line 136, ../sass/inc/pure/forms/css/_forms-core.scss */
 
 form button::-moz-focus-inner,
 form input::-moz-focus-inner {
@@ -972,7 +977,7 @@ form textarea {
   /* 2 */
 }
 
-/* line 1, ../sass/inc/pure/forms/css/_forms.scss */
+/* line 16, ../sass/inc/pure/forms/css/_forms.scss */
 
 form input[type="text"],
 form input[type="password"],
@@ -994,17 +999,18 @@ form textarea {
   display: inline-block;
   border: 1px solid #ccc;
   font-size: 0.8em;
+  -webkit-box-shadow: inset 0 1px 3px #ddd;
   box-shadow: inset 0 1px 3px #ddd;
   border-radius: 4px;
   -webkit-transition: 0.3s linear border;
-  -ms-transition: 0.3s linear border;
   transition: 0.3s linear border;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 34, ../sass/inc/pure/forms/css/_forms.scss */
+/* line 49, ../sass/inc/pure/forms/css/_forms.scss */
 
 form input[type="text"]:focus,
 form input[type="password"]:focus,
@@ -1028,7 +1034,7 @@ form textarea:focus {
   border-color: #129FEA;
 }
 
-/* line 55, ../sass/inc/pure/forms/css/_forms.scss */
+/* line 57, ../sass/inc/pure/forms/css/_forms.scss */
 
 form input[type="file"]:focus,
 form input[type="radio"]:focus,
@@ -1037,7 +1043,7 @@ form input[type="checkbox"]:focus {
   outline: 1px auto #129FEA;
 }
 
-/* line 61, ../sass/inc/pure/forms/css/_forms.scss */
+/* line 62, ../sass/inc/pure/forms/css/_forms.scss */
 
 form .form-checkbox,
 form .form-radio {
@@ -1045,7 +1051,7 @@ form .form-radio {
   display: block;
 }
 
-/* line 66, ../sass/inc/pure/forms/css/_forms.scss */
+/* line 81, ../sass/inc/pure/forms/css/_forms.scss */
 
 form input[type="text"][disabled],
 form input[type="password"][disabled],
@@ -1068,7 +1074,7 @@ form textarea[disabled] {
   color: #cad2d3;
 }
 
-/* line 86, ../sass/inc/pure/forms/css/_forms.scss */
+/* line 91, ../sass/inc/pure/forms/css/_forms.scss */
 
 form input[readonly],
 form select[readonly],
@@ -1083,7 +1089,7 @@ form textarea[readonly]:focus {
   border-color: #ccc;
 }
 
-/* line 98, ../sass/inc/pure/forms/css/_forms.scss */
+/* line 100, ../sass/inc/pure/forms/css/_forms.scss */
 
 form input:focus:invalid,
 form textarea:focus:invalid,
@@ -1092,7 +1098,7 @@ form select:focus:invalid {
   border: 1px solid #ee5f5b;
 }
 
-/* line 104, ../sass/inc/pure/forms/css/_forms.scss */
+/* line 106, ../sass/inc/pure/forms/css/_forms.scss */
 
 form input:focus:invalid:focus,
 form textarea:focus:invalid:focus,
@@ -1100,7 +1106,7 @@ form select:focus:invalid:focus {
   border-color: #e9322d;
 }
 
-/* line 109, ../sass/inc/pure/forms/css/_forms.scss */
+/* line 111, ../sass/inc/pure/forms/css/_forms.scss */
 
 form input[type="file"]:focus:invalid:focus,
 form input[type="radio"]:focus:invalid:focus,
@@ -1148,7 +1154,7 @@ form legend {
   border-bottom: 1px solid #e5e5e5;
 }
 
-/* line 140, ../sass/inc/pure/forms/css/_forms.scss */
+/* line 156, ../sass/inc/pure/forms/css/_forms.scss */
 
 .form-stacked input[type="text"],
 .form-stacked input[type="password"],
@@ -1171,7 +1177,7 @@ form legend {
   margin: 0.25em 0;
 }
 
-/* line 161, ../sass/inc/pure/forms/css/_forms.scss */
+/* line 166, ../sass/inc/pure/forms/css/_forms.scss */
 
 .form-aligned input,
 .form-aligned textarea,
@@ -1210,7 +1216,7 @@ form legend {
 
 /* Rounded Inputs */
 
-/* line 189, ../sass/inc/pure/forms/css/_forms.scss */
+/* line 190, ../sass/inc/pure/forms/css/_forms.scss */
 
 form input.form-input-rounded,
 form .form-input-rounded {
@@ -1297,7 +1303,7 @@ form .form-input-1-4 {
 
 /* NOTE: pure-help-inline is deprecated. Use form-message-inline instead. */
 
-/* line 240, ../sass/inc/pure/forms/css/_forms.scss */
+/* line 241, ../sass/inc/pure/forms/css/_forms.scss */
 
 form .form-help-inline,
 form-message-inline {
@@ -1325,7 +1331,7 @@ form-message {
     margin: 0.7em 0 0;
   }
 
-  /* line 6, ../sass/inc/pure/forms/css/_forms-r.scss */
+  /* line 20, ../sass/inc/pure/forms/css/_forms-r.scss */
 
   form input[type="text"],
   form input[type="password"],
@@ -1346,7 +1352,7 @@ form-message {
     display: block;
   }
 
-  /* line 25, ../sass/inc/pure/forms/css/_forms-r.scss */
+  /* line 38, ../sass/inc/pure/forms/css/_forms-r.scss */
 
   .form-group input[type="text"],
   .form-group input[type="password"],
@@ -1382,7 +1388,7 @@ form-message {
 
   /* NOTE: pure-help-inline is deprecated. Use .pure-form-message-inline instead. */
 
-  /* line 54, ../sass/inc/pure/forms/css/_forms-r.scss */
+  /* line 56, ../sass/inc/pure/forms/css/_forms-r.scss */
 
   form .form-help-inline,
   .form-message-inline,
@@ -1442,17 +1448,17 @@ button {
   /* IE 6 & 7 */
   border: 1px solid #999;
   /*IE 6/7/8*/
-  border: none transparent;
+  border: none rgba(0, 0, 0, 0);
   /*IE9 + everything else*/
   background-color: #E6E6E6;
   text-decoration: none;
   border-radius: 2px;
   /* Transitions */
-  -ms-transition: 0.1s linear box-shadow;
+  -webkit-transition: 0.1s linear -webkit-box-shadow;
   transition: 0.1s linear box-shadow;
 }
 
-/* line 24, ../sass/inc/pure/buttons/_buttons.scss */
+/* line 26, ../sass/inc/pure/buttons/_buttons.scss */
 
 .button-hover,
 button:hover,
@@ -1460,7 +1466,6 @@ button:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000',GradientType=0);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(40%, rgba(0, 0, 0, 0.05)), to(rgba(0, 0, 0, 0.1)));
   background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
-  background-image: -ms-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
   background-image: linear, false, transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1);
 }
 
@@ -1470,14 +1475,15 @@ button:focus {
   outline: 0;
 }
 
-/* line 38, ../sass/inc/pure/buttons/_buttons.scss */
+/* line 39, ../sass/inc/pure/buttons/_buttons.scss */
 
 .button-active,
 button:active {
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.2) inset;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.2) inset;
 }
 
-/* line 43, ../sass/inc/pure/buttons/_buttons.scss */
+/* line 47, ../sass/inc/pure/buttons/_buttons.scss */
 
 button[disabled],
 .button-disabled,
@@ -1487,12 +1493,12 @@ button[disabled],
   border: none;
   background-image: none;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  -webkit-filter: alpha(opacity=40);
   filter: alpha(opacity=40);
   -khtml-opacity: 0.40;
   -moz-opacity: 0.40;
   opacity: 0.40;
   cursor: not-allowed;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
@@ -1511,7 +1517,7 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-/* line 69, ../sass/inc/pure/buttons/_buttons.scss */
+/* line 72, ../sass/inc/pure/buttons/_buttons.scss */
 
 .button-primary,
 .button-selected,
@@ -1592,7 +1598,7 @@ body {
   -ms-hyphens: auto;
   -o-hyphens: auto;
   hyphens: auto;
-  color: #444;
+  color: #444444;
 }
 
 /* line 534, ../sass/inc/typeplate/_typeplate.scss */
@@ -1705,7 +1711,7 @@ p + p {
   margin-top: -1.5em;
 }
 
-/* line 626, ../sass/inc/typeplate/_typeplate.scss */
+/* line 638, ../sass/inc/typeplate/_typeplate.scss */
 
 abbr,
 acronym,
@@ -1771,7 +1777,7 @@ abbr[title]:hover {
   cursor: help;
 }
 
-/* line 682, ../sass/inc/typeplate/_typeplate.scss */
+/* line 687, ../sass/inc/typeplate/_typeplate.scss */
 
 h1,
 h2,
@@ -1779,7 +1785,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222;
+  color: #222222;
 }
 
 /* line 697, ../sass/inc/typeplate/_typeplate.scss */
@@ -1815,7 +1821,7 @@ p + .drop-cap {
  *
  */
 
-/* line 455, ../sass/inc/typeplate/_typeplate.scss */
+/* line 456, ../sass/inc/typeplate/_typeplate.scss */
 
 .lining dt,
 .lining dd {
@@ -1921,7 +1927,7 @@ p + .drop-cap {
   padding: 1em;
 }
 
-/* line 357, ../sass/inc/typeplate/_typeplate.scss */
+/* line 358, ../sass/inc/typeplate/_typeplate.scss */
 
 .pull-quote:before,
 .pull-quote:after {
@@ -2154,6 +2160,7 @@ html {
 /* line 25, ../sass/_gumby.scss */
 
 html * {
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -2715,6 +2722,7 @@ abbr {
   margin-left: 2.12766%;
   float: left;
   min-height: 1px;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -7942,7 +7950,6 @@ i.icon-logo-db:before {
 /* line 1468, ../sass/_gumby.scss */
 
 .image.circle {
-  -ms-border-radius: 50% !important;
   -o-border-radius: 50% !important;
   border-radius: 50% !important;
   overflow: hidden;
@@ -7953,7 +7960,6 @@ i.icon-logo-db:before {
 
 .image.rounded {
   overflow: hidden;
-  -ms-border-radius: 4px 4px;
   -o-border-radius: 4px 4px;
   border-radius: 4px 4px;
 }
@@ -7962,6 +7968,7 @@ i.icon-logo-db:before {
 
 .image.photo {
   border: 5px solid white;
+  -webkit-box-shadow: 0 0 1px #555555;
   box-shadow: 0 0 1px #555555;
 }
 
@@ -7997,6 +8004,7 @@ i.icon-logo-db:before {
   margin: 0 2.12766% 0 0;
   cursor: default;
   top: 1px;
+  -webkit-box-shadow: 0 1px 0 white;
   box-shadow: 0 1px 0 white;
 }
 
@@ -8015,7 +8023,6 @@ i.icon-logo-db:before {
   text-shadow: 0 1px 1px white;
   background: #f2f2f2;
   cursor: pointer;
-  -ms-border-radius: 4px 4px 0 0;
   -o-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
   height: 42px;
@@ -8070,7 +8077,6 @@ i.icon-logo-db:before {
   display: table;
   overflow: hidden;
   border: 1px solid #e5e5e5;
-  -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
 }
@@ -8096,7 +8102,6 @@ i.icon-logo-db:before {
 .tabs.pill .tab-nav > li > a {
   border: none;
   border-right: 1px solid #e5e5e5;
-  -ms-border-radius: 0;
   -o-border-radius: 0;
   border-radius: 0;
   height: 42px;
@@ -8140,7 +8145,6 @@ i.icon-logo-db:before {
 
 .tabs.vertical .tab-nav > li > a {
   border: 1px solid #e5e5e5;
-  -ms-border-radius: 4px 0 0 4px;
   -o-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px;
 }
@@ -8160,6 +8164,7 @@ i.icon-logo-db:before {
   width: 100%;
   max-height: 0;
   background: #3e4144;
+  -webkit-box-shadow: inset 0 -2px 5px #313436, inset 0 2px 5px #313436;
   box-shadow: inset 0 -2px 5px #313436, inset 0 2px 5px #313436;
   overflow: hidden;
   -webkit-transition-duration: 0.3s;
@@ -8363,7 +8368,6 @@ i.icon-logo-db:before {
   border: 3px solid #ffffff;
   border-radius: 23px;
   opacity: 0.5;
-  -webkit-filter: alpha(opacity=50);
   filter: alpha(opacity=50);
 }
 
@@ -8381,7 +8385,6 @@ i.icon-logo-db:before {
   color: #ffffff;
   text-decoration: none;
   opacity: 0.9;
-  -webkit-filter: alpha(opacity=90);
   filter: alpha(opacity=90);
 }
 
@@ -8457,6 +8460,7 @@ i.icon-logo-db:before {
   background-color: #f5f5f5;
   border: 1px solid #e3e3e3;
   border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
@@ -8491,7 +8495,6 @@ i.icon-logo-db:before {
   color: #000000;
   text-shadow: 0 1px 0 #ffffff;
   opacity: 0.2;
-  -webkit-filter: alpha(opacity=20);
   filter: alpha(opacity=20);
 }
 
@@ -8503,7 +8506,6 @@ i.icon-logo-db:before {
   text-decoration: none;
   cursor: pointer;
   opacity: 0.4;
-  -webkit-filter: alpha(opacity=40);
   filter: alpha(opacity=40);
 }
 
@@ -8730,6 +8732,7 @@ html {
 /* line 25, ../sass/_grid.scss */
 
 html * {
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -9291,6 +9294,7 @@ abbr {
   margin-left: 2.12766%;
   float: left;
   min-height: 1px;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -14518,7 +14522,6 @@ i.icon-logo-db:before {
 /* line 1468, ../sass/_grid.scss */
 
 .image.circle {
-  -ms-border-radius: 50% !important;
   -o-border-radius: 50% !important;
   border-radius: 50% !important;
   overflow: hidden;
@@ -14529,7 +14532,6 @@ i.icon-logo-db:before {
 
 .image.rounded {
   overflow: hidden;
-  -ms-border-radius: 4px 4px;
   -o-border-radius: 4px 4px;
   border-radius: 4px 4px;
 }
@@ -14538,6 +14540,7 @@ i.icon-logo-db:before {
 
 .image.photo {
   border: 5px solid white;
+  -webkit-box-shadow: 0 0 1px #555555;
   box-shadow: 0 0 1px #555555;
 }
 
@@ -14573,6 +14576,7 @@ i.icon-logo-db:before {
   margin: 0 2.12766% 0 0;
   cursor: default;
   top: 1px;
+  -webkit-box-shadow: 0 1px 0 white;
   box-shadow: 0 1px 0 white;
 }
 
@@ -14591,7 +14595,6 @@ i.icon-logo-db:before {
   text-shadow: 0 1px 1px white;
   background: #f2f2f2;
   cursor: pointer;
-  -ms-border-radius: 4px 4px 0 0;
   -o-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
   height: 42px;
@@ -14646,7 +14649,6 @@ i.icon-logo-db:before {
   display: table;
   overflow: hidden;
   border: 1px solid #e5e5e5;
-  -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
 }
@@ -14672,7 +14674,6 @@ i.icon-logo-db:before {
 .tabs.pill .tab-nav > li > a {
   border: none;
   border-right: 1px solid #e5e5e5;
-  -ms-border-radius: 0;
   -o-border-radius: 0;
   border-radius: 0;
   height: 42px;
@@ -14716,7 +14717,6 @@ i.icon-logo-db:before {
 
 .tabs.vertical .tab-nav > li > a {
   border: 1px solid #e5e5e5;
-  -ms-border-radius: 4px 0 0 4px;
   -o-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px;
 }
@@ -14736,6 +14736,7 @@ i.icon-logo-db:before {
   width: 100%;
   max-height: 0;
   background: #3e4144;
+  -webkit-box-shadow: inset 0 -2px 5px #313436, inset 0 2px 5px #313436;
   box-shadow: inset 0 -2px 5px #313436, inset 0 2px 5px #313436;
   overflow: hidden;
   -webkit-transition-duration: 0.3s;
@@ -14939,7 +14940,6 @@ i.icon-logo-db:before {
   border: 3px solid #ffffff;
   border-radius: 23px;
   opacity: 0.5;
-  -webkit-filter: alpha(opacity=50);
   filter: alpha(opacity=50);
 }
 
@@ -14957,7 +14957,6 @@ i.icon-logo-db:before {
   color: #ffffff;
   text-decoration: none;
   opacity: 0.9;
-  -webkit-filter: alpha(opacity=90);
   filter: alpha(opacity=90);
 }
 
@@ -15033,6 +15032,7 @@ i.icon-logo-db:before {
   background-color: #f5f5f5;
   border: 1px solid #e3e3e3;
   border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
@@ -15067,7 +15067,6 @@ i.icon-logo-db:before {
   color: #000000;
   text-shadow: 0 1px 0 #ffffff;
   opacity: 0.2;
-  -webkit-filter: alpha(opacity=20);
   filter: alpha(opacity=20);
 }
 
@@ -15079,7 +15078,6 @@ i.icon-logo-db:before {
   text-decoration: none;
   cursor: pointer;
   opacity: 0.4;
-  -webkit-filter: alpha(opacity=40);
   filter: alpha(opacity=40);
 }
 
@@ -15131,7 +15129,7 @@ button.close {
 
 /*template 3*/
 
-/* line 5, ../sass/_hoverex-all.scss */
+/* line 6, ../sass/_hoverex-all.scss */
 
 .tpl3 .info-bottom {
   position: absolute;
@@ -15163,7 +15161,7 @@ button.close {
   opacity: 0.7;
 }
 
-/* line 30, ../sass/_hoverex-all.scss */
+/* line 31, ../sass/_hoverex-all.scss */
 
 .tpl3 .info-top {
   position: absolute;
@@ -15172,6 +15170,7 @@ button.close {
   top: 0;
   background-color: #fefefe;
   background-color: rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 0px 0 3px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0 3px rgba(0, 0, 0, 0.5);
   padding: 10px;
   text-align: center;
@@ -15180,7 +15179,7 @@ button.close {
   text-shadow: 1px 1px 0 #fff;
 }
 
-/* line 46, ../sass/_hoverex-all.scss */
+/* line 47, ../sass/_hoverex-all.scss */
 
 .tpl3 .info-fly {
   position: absolute;
@@ -15189,6 +15188,7 @@ button.close {
   bottom: 20px;
   background-color: #fefefe;
   background-color: rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   border-radius: 3px;
   padding: 10px;
@@ -15198,7 +15198,7 @@ button.close {
   text-shadow: 1px 1px 0 #fff;
 }
 
-/* line 63, ../sass/_hoverex-all.scss */
+/* line 64, ../sass/_hoverex-all.scss */
 
 .he-wrap {
   zoom: 1;
@@ -15206,7 +15206,7 @@ button.close {
   position: relative;
 }
 
-/* line 69, ../sass/_hoverex-all.scss */
+/* line 70, ../sass/_hoverex-all.scss */
 
 .he-view,
 .he-zoom {
@@ -15219,7 +15219,7 @@ button.close {
   visibility: hidden;
 }
 
-/* line 79, ../sass/_hoverex-all.scss */
+/* line 80, ../sass/_hoverex-all.scss */
 
 .he-zoom img {
   position: absolute;
@@ -15227,7 +15227,7 @@ button.close {
   left: 0;
 }
 
-/* line 85, ../sass/_hoverex-all.scss */
+/* line 86, ../sass/_hoverex-all.scss */
 
 .he-zoomstate {
   position: absolute;
@@ -15239,28 +15239,29 @@ button.close {
   font-size: 12px;
   line-height: 16px;
   padding: 0 4px;
+  -webkit-box-shadow: -1px -1px 1px rgba(204, 0, 0, 0.3);
   box-shadow: -1px -1px 1px rgba(204, 0, 0, 0.3);
 }
 
-/* line 98, ../sass/_hoverex-all.scss */
+/* line 99, ../sass/_hoverex-all.scss */
 
 .he-view-show {
   visibility: visible;
 }
 
-/* line 102, ../sass/_hoverex-all.scss */
+/* line 103, ../sass/_hoverex-all.scss */
 
 .he-sliders {
   overflow: hidden;
 }
 
-/* line 106, ../sass/_hoverex-all.scss */
+/* line 107, ../sass/_hoverex-all.scss */
 
 .he-sliders img {
   display: none;
 }
 
-/* line 110, ../sass/_hoverex-all.scss */
+/* line 111, ../sass/_hoverex-all.scss */
 
 .he-sliders img:first-child {
   display: inline-block;
@@ -15268,7 +15269,7 @@ button.close {
   *zoom: 1;
 }
 
-/* line 116, ../sass/_hoverex-all.scss */
+/* line 117, ../sass/_hoverex-all.scss */
 
 .he-pre,
 .he-next {
@@ -15282,7 +15283,7 @@ button.close {
   cursor: pointer;
 }
 
-/* line 127, ../sass/_hoverex-all.scss */
+/* line 128, ../sass/_hoverex-all.scss */
 
 .he-next {
   left: auto;
@@ -15308,49 +15309,49 @@ button.close {
   animation-duration: .5s;
 }
 
-/* line 145, ../sass/_hoverex-all.scss */
+/* line 146, ../sass/_hoverex-all.scss */
 
 .a1 {
   -webkit-animation-delay: .2s;
   animation-delay: .2s;
 }
 
-/* line 152, ../sass/_hoverex-all.scss */
+/* line 153, ../sass/_hoverex-all.scss */
 
 .a2 {
   -webkit-animation-delay: .4s;
   animation-delay: .4s;
 }
 
-/* line 159, ../sass/_hoverex-all.scss */
+/* line 160, ../sass/_hoverex-all.scss */
 
 .a3 {
   -webkit-animation-delay: .6s;
   animation-delay: .6s;
 }
 
-/* line 167, ../sass/_hoverex-all.scss */
+/* line 168, ../sass/_hoverex-all.scss */
 
 .a4 {
   -webkit-animation-delay: .8s;
   animation-delay: .8s;
 }
 
-/* line 174, ../sass/_hoverex-all.scss */
+/* line 175, ../sass/_hoverex-all.scss */
 
 .a5 {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
 }
 
-/* line 181, ../sass/_hoverex-all.scss */
+/* line 182, ../sass/_hoverex-all.scss */
 
 .a6 {
   -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s;
 }
 
-/* line 188, ../sass/_hoverex-all.scss */
+/* line 189, ../sass/_hoverex-all.scss */
 
 .a7 {
   -webkit-animation-delay: 1.4s;
@@ -15358,19 +15359,23 @@ button.close {
 }
 
 @-webkit-keyframes flipInLeft {
+  /* line 196, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: perspective(400px) rotateY(90deg);
     opacity: 0.5;
   }
 
+  /* line 200, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: perspective(400px) rotateY(-10deg);
   }
 
+  /* line 203, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: perspective(400px) rotateY(5deg);
   }
 
+  /* line 206, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: perspective(400px) rotateY(0deg);
     opacity: 1;
@@ -15378,6 +15383,7 @@ button.close {
 }
 
 @keyframes flipInLeft {
+  /* line 245, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: perspective(400px) rotateY(90deg);
     -ms-transform: perspective(400px) rotateY(90deg);
@@ -15385,18 +15391,21 @@ button.close {
     opacity: 0.5;
   }
 
+  /* line 249, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: perspective(400px) rotateY(-10deg);
     -ms-transform: perspective(400px) rotateY(-10deg);
     transform: perspective(400px) rotateY(-10deg);
   }
 
+  /* line 252, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: perspective(400px) rotateY(5deg);
     -ms-transform: perspective(400px) rotateY(5deg);
     transform: perspective(400px) rotateY(5deg);
   }
 
+  /* line 255, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: perspective(400px) rotateY(0deg);
     -ms-transform: perspective(400px) rotateY(0deg);
@@ -15419,19 +15428,23 @@ button.close {
 }
 
 @-webkit-keyframes flipInRight {
+  /* line 275, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: perspective(400px) rotateY(-90deg);
     opacity: 0.5;
   }
 
+  /* line 279, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: perspective(400px) rotateY(10deg);
   }
 
+  /* line 282, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: perspective(400px) rotateY(-5deg);
   }
 
+  /* line 285, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: perspective(400px) rotateY(0deg);
     opacity: 1;
@@ -15439,6 +15452,7 @@ button.close {
 }
 
 @keyframes flipInRight {
+  /* line 323, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: perspective(400px) rotateY(-90deg);
     -ms-transform: perspective(400px) rotateY(-90deg);
@@ -15446,18 +15460,21 @@ button.close {
     opacity: 0.5;
   }
 
+  /* line 327, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: perspective(400px) rotateY(10deg);
     -ms-transform: perspective(400px) rotateY(10deg);
     transform: perspective(400px) rotateY(10deg);
   }
 
+  /* line 330, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: perspective(400px) rotateY(-5deg);
     -ms-transform: perspective(400px) rotateY(-5deg);
     transform: perspective(400px) rotateY(-5deg);
   }
 
+  /* line 333, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: perspective(400px) rotateY(0deg);
     -ms-transform: perspective(400px) rotateY(0deg);
@@ -15480,19 +15497,23 @@ button.close {
 }
 
 @-webkit-keyframes flipInDown {
+  /* line 353, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: perspective(400px) rotateX(-90deg);
     opacity: 0.5;
   }
 
+  /* line 357, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: perspective(400px) rotateX(10deg);
   }
 
+  /* line 360, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: perspective(400px) rotateX(-5deg);
   }
 
+  /* line 363, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: perspective(400px) rotateX(0deg);
     opacity: 1;
@@ -15500,6 +15521,7 @@ button.close {
 }
 
 @keyframes flipInDown {
+  /* line 401, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: perspective(400px) rotateX(-90deg);
     -ms-transform: perspective(400px) rotateX(-90deg);
@@ -15507,18 +15529,21 @@ button.close {
     opacity: 0.5;
   }
 
+  /* line 405, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: perspective(400px) rotateX(10deg);
     -ms-transform: perspective(400px) rotateX(10deg);
     transform: perspective(400px) rotateX(10deg);
   }
 
+  /* line 408, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: perspective(400px) rotateX(-5deg);
     -ms-transform: perspective(400px) rotateX(-5deg);
     transform: perspective(400px) rotateX(-5deg);
   }
 
+  /* line 411, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: perspective(400px) rotateX(0deg);
     -ms-transform: perspective(400px) rotateX(0deg);
@@ -15541,19 +15566,23 @@ button.close {
 }
 
 @-webkit-keyframes flipInUp {
+  /* line 431, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: perspective(300px) rotateX(90deg);
     opacity: 0.5;
   }
 
+  /* line 435, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: perspective(300px) rotateX(-10deg);
   }
 
+  /* line 438, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: perspective(300px) rotateX(5deg);
   }
 
+  /* line 441, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: perspective(300px) rotateX(0deg);
     opacity: 1;
@@ -15561,19 +15590,23 @@ button.close {
 }
 
 @-webkit-keyframes flipInUp {
+  /* line 447, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: perspective(300px) rotateX(90deg);
     opacity: 0.5;
   }
 
+  /* line 451, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: perspective(300px) rotateX(-10deg);
   }
 
+  /* line 454, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: perspective(300px) rotateX(5deg);
   }
 
+  /* line 457, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: perspective(300px) rotateX(0deg);
     opacity: 1;
@@ -15581,6 +15614,7 @@ button.close {
 }
 
 @keyframes flipInUp {
+  /* line 495, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: perspective(300px) rotateX(90deg);
     -ms-transform: perspective(300px) rotateX(90deg);
@@ -15588,18 +15622,21 @@ button.close {
     opacity: 0.5;
   }
 
+  /* line 499, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: perspective(300px) rotateX(-10deg);
     -ms-transform: perspective(300px) rotateX(-10deg);
     transform: perspective(300px) rotateX(-10deg);
   }
 
+  /* line 502, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: perspective(300px) rotateX(5deg);
     -ms-transform: perspective(300px) rotateX(5deg);
     transform: perspective(300px) rotateX(5deg);
   }
 
+  /* line 505, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: perspective(300px) rotateX(0deg);
     -ms-transform: perspective(300px) rotateX(0deg);
@@ -15635,7 +15672,7 @@ flipInH {
   transform-origin: 50% 50%;
 }
 
-/* line 538, ../sass/_hoverex-all.scss */
+/* line 539, ../sass/_hoverex-all.scss */
 
 .flipInH {
   -webkit-animation-name: flipInLeft;
@@ -15643,26 +15680,31 @@ flipInH {
 }
 
 @-webkit-keyframes zoomIn {
+  /* line 546, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: scale(0.3);
   }
 
+  /* line 550, ../sass/_hoverex-all.scss */
   50% {
     opacity: 1;
     -webkit-transform: scale(1.05);
   }
 
+  /* line 554, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: scale(0.9);
   }
 
+  /* line 557, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
   }
 }
 
 @keyframes zoomIn {
+  /* line 594, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: scale(0.3);
@@ -15670,6 +15712,7 @@ flipInH {
     transform: scale(0.3);
   }
 
+  /* line 598, ../sass/_hoverex-all.scss */
   50% {
     opacity: 1;
     -webkit-transform: scale(1.05);
@@ -15677,12 +15720,14 @@ flipInH {
     transform: scale(1.05);
   }
 
+  /* line 602, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
   }
 
+  /* line 605, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -15698,26 +15743,31 @@ flipInH {
 }
 
 @-webkit-keyframes zoomInLeft {
+  /* line 616, ../sass/_hoverex-all.scss */
   0% {
     opacity: .3;
     -webkit-transform: scale(0.4) translateX(-1000px);
   }
 
+  /* line 620, ../sass/_hoverex-all.scss */
   70% {
     opacity: 1;
     -webkit-transform: scale(1.05);
   }
 
+  /* line 624, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(0.95) translateX(0px);
   }
 
+  /* line 627, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
   }
 }
 
 @keyframes zoomInLeft {
+  /* line 664, ../sass/_hoverex-all.scss */
   0% {
     opacity: .3;
     -webkit-transform: scale(0.4) translateX(-1000px);
@@ -15725,6 +15775,7 @@ flipInH {
     transform: scale(0.4) translateX(-1000px);
   }
 
+  /* line 668, ../sass/_hoverex-all.scss */
   70% {
     opacity: 1;
     -webkit-transform: scale(1.05);
@@ -15732,12 +15783,14 @@ flipInH {
     transform: scale(1.05);
   }
 
+  /* line 672, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(0.95) translateX(0px);
     -ms-transform: scale(0.95) translateX(0px);
     transform: scale(0.95) translateX(0px);
   }
 
+  /* line 675, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -15753,26 +15806,31 @@ flipInH {
 }
 
 @-webkit-keyframes zoomInRight {
+  /* line 686, ../sass/_hoverex-all.scss */
   0% {
     opacity: .3;
     -webkit-transform: scale(0.4) translateX(1000px);
   }
 
+  /* line 690, ../sass/_hoverex-all.scss */
   70% {
     opacity: 1;
     -webkit-transform: scale(1.05);
   }
 
+  /* line 694, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(0.95) translateX(0px);
   }
 
+  /* line 697, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
   }
 }
 
 @keyframes zoomInRight {
+  /* line 734, ../sass/_hoverex-all.scss */
   0% {
     opacity: .3;
     -webkit-transform: scale(0.4) translateX(1000px);
@@ -15780,6 +15838,7 @@ flipInH {
     transform: scale(0.4) translateX(1000px);
   }
 
+  /* line 738, ../sass/_hoverex-all.scss */
   70% {
     opacity: 1;
     -webkit-transform: scale(1.05);
@@ -15787,12 +15846,14 @@ flipInH {
     transform: scale(1.05);
   }
 
+  /* line 742, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(0.95) translateX(0px);
     -ms-transform: scale(0.95) translateX(0px);
     transform: scale(0.95) translateX(0px);
   }
 
+  /* line 745, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -15808,26 +15869,31 @@ flipInH {
 }
 
 @-webkit-keyframes zoomInUp {
+  /* line 756, ../sass/_hoverex-all.scss */
   0% {
     opacity: .3;
     -webkit-transform: scale(0.4) translateY(-1000px);
   }
 
+  /* line 760, ../sass/_hoverex-all.scss */
   70% {
     opacity: 1;
     -webkit-transform: scale(1.05);
   }
 
+  /* line 764, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(0.95) translateY(0px);
   }
 
+  /* line 767, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
   }
 }
 
 @keyframes zoomInUp {
+  /* line 804, ../sass/_hoverex-all.scss */
   0% {
     opacity: .3;
     -webkit-transform: scale(0.4) translateY(-1000px);
@@ -15835,6 +15901,7 @@ flipInH {
     transform: scale(0.4) translateY(-1000px);
   }
 
+  /* line 808, ../sass/_hoverex-all.scss */
   70% {
     opacity: 1;
     -webkit-transform: scale(1.05);
@@ -15842,12 +15909,14 @@ flipInH {
     transform: scale(1.05);
   }
 
+  /* line 812, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(0.95) translateY(0px);
     -ms-transform: scale(0.95) translateY(0px);
     transform: scale(0.95) translateY(0px);
   }
 
+  /* line 815, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -15863,26 +15932,31 @@ flipInH {
 }
 
 @-webkit-keyframes zoomInDown {
+  /* line 826, ../sass/_hoverex-all.scss */
   0% {
     opacity: .3;
     -webkit-transform: scale(0.4) translateY(1000px);
   }
 
+  /* line 830, ../sass/_hoverex-all.scss */
   70% {
     opacity: 1;
     -webkit-transform: scale(1.05);
   }
 
+  /* line 834, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(0.95) translateY(0px);
   }
 
+  /* line 837, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
   }
 }
 
 @keyframes zoomInDown {
+  /* line 874, ../sass/_hoverex-all.scss */
   0% {
     opacity: .3;
     -webkit-transform: scale(0.4) translateY(1000px);
@@ -15890,6 +15964,7 @@ flipInH {
     transform: scale(0.4) translateY(1000px);
   }
 
+  /* line 878, ../sass/_hoverex-all.scss */
   70% {
     opacity: 1;
     -webkit-transform: scale(1.05);
@@ -15897,12 +15972,14 @@ flipInH {
     transform: scale(1.05);
   }
 
+  /* line 882, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(0.95) translateY(0px);
     -ms-transform: scale(0.95) translateY(0px);
     transform: scale(0.95) translateY(0px);
   }
 
+  /* line 885, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -15918,20 +15995,24 @@ flipInH {
 }
 
 @-webkit-keyframes fadeIn {
+  /* line 896, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
   }
 
+  /* line 900, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
   }
 }
 
 @keyframes fadeIn {
+  /* line 922, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
   }
 
+  /* line 926, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
   }
@@ -15945,11 +16026,13 @@ flipInH {
 }
 
 @-webkit-keyframes fadeInLeft {
+  /* line 938, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-100%);
   }
 
+  /* line 942, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0%);
@@ -15957,6 +16040,7 @@ flipInH {
 }
 
 @keyframes fadeInLeft {
+  /* line 968, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-100%);
@@ -15964,6 +16048,7 @@ flipInH {
     transform: translateX(-100%);
   }
 
+  /* line 972, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0%);
@@ -15980,11 +16065,13 @@ flipInH {
 }
 
 @-webkit-keyframes fadeInRight {
+  /* line 984, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(100%);
   }
 
+  /* line 988, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0%);
@@ -15992,6 +16079,7 @@ flipInH {
 }
 
 @keyframes fadeInRight {
+  /* line 1014, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(100%);
@@ -15999,6 +16087,7 @@ flipInH {
     transform: translateX(100%);
   }
 
+  /* line 1018, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0%);
@@ -16015,11 +16104,13 @@ flipInH {
 }
 
 @-webkit-keyframes fadeInUp {
+  /* line 1030, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(30%);
   }
 
+  /* line 1034, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0%);
@@ -16027,6 +16118,7 @@ flipInH {
 }
 
 @keyframes fadeInUp {
+  /* line 1060, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(30%);
@@ -16034,6 +16126,7 @@ flipInH {
     transform: translateY(30%);
   }
 
+  /* line 1064, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0%);
@@ -16050,11 +16143,13 @@ flipInH {
 }
 
 @-webkit-keyframes fadeInDown {
+  /* line 1076, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-100%);
   }
 
+  /* line 1080, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0%);
@@ -16062,6 +16157,7 @@ flipInH {
 }
 
 @keyframes fadeInDown {
+  /* line 1106, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-100%);
@@ -16069,6 +16165,7 @@ flipInH {
     transform: translateY(-100%);
   }
 
+  /* line 1110, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0%);
@@ -16085,11 +16182,13 @@ flipInH {
 }
 
 @-webkit-keyframes rotateIn {
+  /* line 1122, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: rotate(360deg) scale(0.1);
   }
 
+  /* line 1126, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: rotate(0deg) scale(1);
@@ -16097,6 +16196,7 @@ flipInH {
 }
 
 @keyframes rotateIn {
+  /* line 1152, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: rotate(360deg) scale(0.1);
@@ -16104,6 +16204,7 @@ flipInH {
     transform: rotate(360deg) scale(0.1);
   }
 
+  /* line 1156, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: rotate(0deg) scale(1);
@@ -16120,11 +16221,13 @@ flipInH {
 }
 
 @-webkit-keyframes rotateInLeft {
+  /* line 1169, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-100%) rotate(-120deg);
   }
 
+  /* line 1170, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
@@ -16132,6 +16235,7 @@ flipInH {
 }
 
 @keyframes rotateInLeft {
+  /* line 1184, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-100%) rotate(-120deg);
@@ -16139,6 +16243,7 @@ flipInH {
     transform: translateX(-100%) rotate(-120deg);
   }
 
+  /* line 1185, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
@@ -16155,11 +16260,13 @@ flipInH {
 }
 
 @-webkit-keyframes rotateInRight {
+  /* line 1195, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(100%) rotate(120deg);
   }
 
+  /* line 1196, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
@@ -16167,6 +16274,7 @@ flipInH {
 }
 
 @keyframes rotateInRight {
+  /* line 1210, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(100%) rotate(120deg);
@@ -16174,6 +16282,7 @@ flipInH {
     transform: translateX(100%) rotate(120deg);
   }
 
+  /* line 1211, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
@@ -16190,11 +16299,13 @@ flipInH {
 }
 
 @-webkit-keyframes rotateInUp {
+  /* line 1222, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(100%) rotate(-120deg);
   }
 
+  /* line 1223, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0px) rotate(0deg);
@@ -16202,6 +16313,7 @@ flipInH {
 }
 
 @keyframes rotateInUp {
+  /* line 1237, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(100%) rotate(-120deg);
@@ -16209,6 +16321,7 @@ flipInH {
     transform: translateY(100%) rotate(-120deg);
   }
 
+  /* line 1238, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0px) rotate(0deg);
@@ -16225,11 +16338,13 @@ flipInH {
 }
 
 @-webkit-keyframes rotateInDown {
+  /* line 1248, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-100%) rotate(120deg);
   }
 
+  /* line 1249, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0px) rotate(0deg);
@@ -16237,6 +16352,7 @@ flipInH {
 }
 
 @keyframes rotateInDown {
+  /* line 1263, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-100%) rotate(120deg);
@@ -16244,6 +16360,7 @@ flipInH {
     transform: translateY(-100%) rotate(120deg);
   }
 
+  /* line 1264, ../sass/_hoverex-all.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0px) rotate(0deg);
@@ -16260,42 +16377,51 @@ flipInH {
 }
 
 @-webkit-keyframes jellyInDown {
+  /* line 1273, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateY(-1000px);
     opacity: 0;
   }
 
+  /* line 1277, ../sass/_hoverex-all.scss */
   40% {
     -webkit-transform: translateY(0px);
     opacity: 1;
   }
 
+  /* line 1281, ../sass/_hoverex-all.scss */
   50% {
     -webkit-transform: scale(1.1, 0.9);
   }
 
+  /* line 1284, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: scale(0.95, 1.05);
   }
 
+  /* line 1287, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: scale(1.05, 0.95);
   }
 
+  /* line 1290, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: scale(0.98, 1.02);
   }
 
+  /* line 1293, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(1.02, 0.98);
   }
 
+  /* line 1296, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
   }
 }
 
 @keyframes jellyInDown {
+  /* line 1357, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateY(-1000px);
     -ms-transform: translateY(-1000px);
@@ -16303,6 +16429,7 @@ flipInH {
     opacity: 0;
   }
 
+  /* line 1361, ../sass/_hoverex-all.scss */
   40% {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
@@ -16310,36 +16437,42 @@ flipInH {
     opacity: 1;
   }
 
+  /* line 1365, ../sass/_hoverex-all.scss */
   50% {
     -webkit-transform: scale(1.1, 0.9);
     -ms-transform: scale(1.1, 0.9);
     transform: scale(1.1, 0.9);
   }
 
+  /* line 1368, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: scale(0.95, 1.05);
     -ms-transform: scale(0.95, 1.05);
     transform: scale(0.95, 1.05);
   }
 
+  /* line 1371, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: scale(1.05, 0.95);
     -ms-transform: scale(1.05, 0.95);
     transform: scale(1.05, 0.95);
   }
 
+  /* line 1374, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: scale(0.98, 1.02);
     -ms-transform: scale(0.98, 1.02);
     transform: scale(0.98, 1.02);
   }
 
+  /* line 1377, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(1.02, 0.98);
     -ms-transform: scale(1.02, 0.98);
     transform: scale(1.02, 0.98);
   }
 
+  /* line 1380, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -16358,42 +16491,51 @@ flipInH {
 }
 
 @-webkit-keyframes jellyInUp {
+  /* line 1395, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateY(1000px);
     opacity: 0;
   }
 
+  /* line 1399, ../sass/_hoverex-all.scss */
   40% {
     -webkit-transform: translateY(0px);
     opacity: 1;
   }
 
+  /* line 1403, ../sass/_hoverex-all.scss */
   50% {
     -webkit-transform: scale(1.1, 0.9);
   }
 
+  /* line 1406, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: scale(0.95, 1.05);
   }
 
+  /* line 1409, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: scale(1.05, 0.95);
   }
 
+  /* line 1412, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: scale(0.98, 1.02);
   }
 
+  /* line 1415, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(1.02, 0.98);
   }
 
+  /* line 1418, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
   }
 }
 
 @keyframes jellyInUp {
+  /* line 1479, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateY(1000px);
     -ms-transform: translateY(1000px);
@@ -16401,6 +16543,7 @@ flipInH {
     opacity: 0;
   }
 
+  /* line 1483, ../sass/_hoverex-all.scss */
   40% {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
@@ -16408,36 +16551,42 @@ flipInH {
     opacity: 1;
   }
 
+  /* line 1487, ../sass/_hoverex-all.scss */
   50% {
     -webkit-transform: scale(1.1, 0.9);
     -ms-transform: scale(1.1, 0.9);
     transform: scale(1.1, 0.9);
   }
 
+  /* line 1490, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: scale(0.95, 1.05);
     -ms-transform: scale(0.95, 1.05);
     transform: scale(0.95, 1.05);
   }
 
+  /* line 1493, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: scale(1.05, 0.95);
     -ms-transform: scale(1.05, 0.95);
     transform: scale(1.05, 0.95);
   }
 
+  /* line 1496, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: scale(0.98, 1.02);
     -ms-transform: scale(0.98, 1.02);
     transform: scale(0.98, 1.02);
   }
 
+  /* line 1499, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(1.02, 0.98);
     -ms-transform: scale(1.02, 0.98);
     transform: scale(1.02, 0.98);
   }
 
+  /* line 1502, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -16456,42 +16605,51 @@ flipInH {
 }
 
 @-webkit-keyframes jellyInLeft {
+  /* line 1517, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateX(-1000px);
     opacity: 0;
   }
 
+  /* line 1521, ../sass/_hoverex-all.scss */
   40% {
     -webkit-transform: translateX(0px);
     opacity: 1;
   }
 
+  /* line 1525, ../sass/_hoverex-all.scss */
   50% {
     -webkit-transform: scale(0.9, 1.1);
   }
 
+  /* line 1528, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: scale(1.05, 0.95);
   }
 
+  /* line 1531, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: scale(0.95, 1.05);
   }
 
+  /* line 1534, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: scale(1.02, 0.98);
   }
 
+  /* line 1537, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(0.98, 1.02);
   }
 
+  /* line 1540, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
   }
 }
 
 @keyframes jellyInLeft {
+  /* line 1601, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateX(-1000px);
     -ms-transform: translateX(-1000px);
@@ -16499,6 +16657,7 @@ flipInH {
     opacity: 0;
   }
 
+  /* line 1605, ../sass/_hoverex-all.scss */
   40% {
     -webkit-transform: translateX(0px);
     -ms-transform: translateX(0px);
@@ -16506,36 +16665,42 @@ flipInH {
     opacity: 1;
   }
 
+  /* line 1609, ../sass/_hoverex-all.scss */
   50% {
     -webkit-transform: scale(0.9, 1.1);
     -ms-transform: scale(0.9, 1.1);
     transform: scale(0.9, 1.1);
   }
 
+  /* line 1612, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: scale(1.05, 0.95);
     -ms-transform: scale(1.05, 0.95);
     transform: scale(1.05, 0.95);
   }
 
+  /* line 1615, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: scale(0.95, 1.05);
     -ms-transform: scale(0.95, 1.05);
     transform: scale(0.95, 1.05);
   }
 
+  /* line 1618, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: scale(1.02, 0.98);
     -ms-transform: scale(1.02, 0.98);
     transform: scale(1.02, 0.98);
   }
 
+  /* line 1621, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(0.98, 1.02);
     -ms-transform: scale(0.98, 1.02);
     transform: scale(0.98, 1.02);
   }
 
+  /* line 1624, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -16554,42 +16719,51 @@ flipInH {
 }
 
 @-webkit-keyframes jellyInRight {
+  /* line 1639, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateX(1000px);
     opacity: 0;
   }
 
+  /* line 1643, ../sass/_hoverex-all.scss */
   40% {
     -webkit-transform: translateX(0px);
     opacity: 1;
   }
 
+  /* line 1647, ../sass/_hoverex-all.scss */
   50% {
     -webkit-transform: scale(0.9, 1.1);
   }
 
+  /* line 1650, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: scale(1.05, 0.95);
   }
 
+  /* line 1653, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: scale(0.95, 1.05);
   }
 
+  /* line 1656, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: scale(1.02, 0.98);
   }
 
+  /* line 1659, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(0.98, 1.02);
   }
 
+  /* line 1662, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
   }
 }
 
 @keyframes jellyInRight {
+  /* line 1723, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateX(1000px);
     -ms-transform: translateX(1000px);
@@ -16597,6 +16771,7 @@ flipInH {
     opacity: 0;
   }
 
+  /* line 1727, ../sass/_hoverex-all.scss */
   40% {
     -webkit-transform: translateX(0px);
     -ms-transform: translateX(0px);
@@ -16604,36 +16779,42 @@ flipInH {
     opacity: 1;
   }
 
+  /* line 1731, ../sass/_hoverex-all.scss */
   50% {
     -webkit-transform: scale(0.9, 1.1);
     -ms-transform: scale(0.9, 1.1);
     transform: scale(0.9, 1.1);
   }
 
+  /* line 1734, ../sass/_hoverex-all.scss */
   60% {
     -webkit-transform: scale(1.05, 0.95);
     -ms-transform: scale(1.05, 0.95);
     transform: scale(1.05, 0.95);
   }
 
+  /* line 1737, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: scale(0.95, 1.05);
     -ms-transform: scale(0.95, 1.05);
     transform: scale(0.95, 1.05);
   }
 
+  /* line 1740, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: scale(1.02, 0.98);
     -ms-transform: scale(1.02, 0.98);
     transform: scale(1.02, 0.98);
   }
 
+  /* line 1743, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: scale(0.98, 1.02);
     -ms-transform: scale(0.98, 1.02);
     transform: scale(0.98, 1.02);
   }
 
+  /* line 1746, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -16652,52 +16833,62 @@ flipInH {
 }
 
 @-webkit-keyframes bounceInLeft {
+  /* line 1761, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateX(-1000px);
   }
 
+  /* line 1764, ../sass/_hoverex-all.scss */
   34% {
     -webkit-animation-timing-function: ease-out;
     -webkit-transform: translateX(0px);
   }
 
+  /* line 1768, ../sass/_hoverex-all.scss */
   52% {
     -webkit-transform: translateX(-24px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 1772, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: translateX(0px);
     -webkit-animation-timing-function: ease-out;
   }
 
+  /* line 1776, ../sass/_hoverex-all.scss */
   79% {
     -webkit-transform: translateX(-8px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 1780, ../sass/_hoverex-all.scss */
   88% {
     -webkit-transform: translateX(0px);
     -webkit-animation-timing-function: ease-out;
   }
 
+  /* line 1784, ../sass/_hoverex-all.scss */
   94% {
     -webkit-transform: translateX(-3px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 1788, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateX(0px);
   }
 }
 
 @keyframes bounceInLeft {
+  /* line 1857, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateX(-1000px);
     -ms-transform: translateX(-1000px);
     transform: translateX(-1000px);
   }
 
+  /* line 1860, ../sass/_hoverex-all.scss */
   34% {
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
@@ -16706,6 +16897,7 @@ flipInH {
     transform: translateX(0px);
   }
 
+  /* line 1864, ../sass/_hoverex-all.scss */
   52% {
     -webkit-transform: translateX(-24px);
     -ms-transform: translateX(-24px);
@@ -16714,6 +16906,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 1868, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: translateX(0px);
     -ms-transform: translateX(0px);
@@ -16722,6 +16915,7 @@ flipInH {
     animation-timing-function: ease-out;
   }
 
+  /* line 1872, ../sass/_hoverex-all.scss */
   79% {
     -webkit-transform: translateX(-8px);
     -ms-transform: translateX(-8px);
@@ -16730,6 +16924,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 1876, ../sass/_hoverex-all.scss */
   88% {
     -webkit-transform: translateX(0px);
     -ms-transform: translateX(0px);
@@ -16738,6 +16933,7 @@ flipInH {
     animation-timing-function: ease-out;
   }
 
+  /* line 1880, ../sass/_hoverex-all.scss */
   94% {
     -webkit-transform: translateX(-3px);
     -ms-transform: translateX(-3px);
@@ -16746,6 +16942,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 1884, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateX(0px);
     -ms-transform: translateX(0px);
@@ -16761,52 +16958,62 @@ flipInH {
 }
 
 @-webkit-keyframes bounceInRight {
+  /* line 1895, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateX(1000px);
   }
 
+  /* line 1898, ../sass/_hoverex-all.scss */
   34% {
     -webkit-animation-timing-function: ease-out;
     -webkit-transform: translateX(0px);
   }
 
+  /* line 1902, ../sass/_hoverex-all.scss */
   52% {
     -webkit-transform: translateX(24px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 1906, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: translateX(0px);
     -webkit-animation-timing-function: ease-out;
   }
 
+  /* line 1910, ../sass/_hoverex-all.scss */
   79% {
     -webkit-transform: translateX(8px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 1914, ../sass/_hoverex-all.scss */
   88% {
     -webkit-transform: translateX(0px);
     -webkit-animation-timing-function: ease-out;
   }
 
+  /* line 1918, ../sass/_hoverex-all.scss */
   94% {
     -webkit-transform: translateX(3px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 1922, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateX(0px);
   }
 }
 
 @keyframes bounceInRight {
+  /* line 1991, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateX(1000px);
     -ms-transform: translateX(1000px);
     transform: translateX(1000px);
   }
 
+  /* line 1994, ../sass/_hoverex-all.scss */
   34% {
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
@@ -16815,6 +17022,7 @@ flipInH {
     transform: translateX(0px);
   }
 
+  /* line 1998, ../sass/_hoverex-all.scss */
   52% {
     -webkit-transform: translateX(24px);
     -ms-transform: translateX(24px);
@@ -16823,6 +17031,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 2002, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: translateX(0px);
     -ms-transform: translateX(0px);
@@ -16831,6 +17040,7 @@ flipInH {
     animation-timing-function: ease-out;
   }
 
+  /* line 2006, ../sass/_hoverex-all.scss */
   79% {
     -webkit-transform: translateX(8px);
     -ms-transform: translateX(8px);
@@ -16839,6 +17049,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 2010, ../sass/_hoverex-all.scss */
   88% {
     -webkit-transform: translateX(0px);
     -ms-transform: translateX(0px);
@@ -16847,6 +17058,7 @@ flipInH {
     animation-timing-function: ease-out;
   }
 
+  /* line 2014, ../sass/_hoverex-all.scss */
   94% {
     -webkit-transform: translateX(3px);
     -ms-transform: translateX(3px);
@@ -16855,6 +17067,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 2018, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateX(0px);
     -ms-transform: translateX(0px);
@@ -16870,52 +17083,62 @@ flipInH {
 }
 
 @-webkit-keyframes bounceInUp {
+  /* line 2029, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateY(1000px);
   }
 
+  /* line 2032, ../sass/_hoverex-all.scss */
   34% {
     -webkit-animation-timing-function: ease-out;
     -webkit-transform: translateY(0px);
   }
 
+  /* line 2036, ../sass/_hoverex-all.scss */
   52% {
     -webkit-transform: translateY(24px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 2040, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
   }
 
+  /* line 2044, ../sass/_hoverex-all.scss */
   79% {
     -webkit-transform: translateY(8px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 2048, ../sass/_hoverex-all.scss */
   88% {
     -webkit-transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
   }
 
+  /* line 2052, ../sass/_hoverex-all.scss */
   94% {
     -webkit-transform: translateY(3px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 2056, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateY(0px);
   }
 }
 
 @keyframes bounceInUp {
+  /* line 2125, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateY(1000px);
     -ms-transform: translateY(1000px);
     transform: translateY(1000px);
   }
 
+  /* line 2128, ../sass/_hoverex-all.scss */
   34% {
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
@@ -16924,6 +17147,7 @@ flipInH {
     transform: translateY(0px);
   }
 
+  /* line 2132, ../sass/_hoverex-all.scss */
   52% {
     -webkit-transform: translateY(24px);
     -ms-transform: translateY(24px);
@@ -16932,6 +17156,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 2136, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
@@ -16940,6 +17165,7 @@ flipInH {
     animation-timing-function: ease-out;
   }
 
+  /* line 2140, ../sass/_hoverex-all.scss */
   79% {
     -webkit-transform: translateY(8px);
     -ms-transform: translateY(8px);
@@ -16948,6 +17174,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 2144, ../sass/_hoverex-all.scss */
   88% {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
@@ -16956,6 +17183,7 @@ flipInH {
     animation-timing-function: ease-out;
   }
 
+  /* line 2148, ../sass/_hoverex-all.scss */
   94% {
     -webkit-transform: translateY(3px);
     -ms-transform: translateY(3px);
@@ -16964,6 +17192,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 2152, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
@@ -16979,52 +17208,62 @@ flipInH {
 }
 
 @-webkit-keyframes bounceInDown {
+  /* line 2163, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateY(-1000px);
   }
 
+  /* line 2166, ../sass/_hoverex-all.scss */
   34% {
     -webkit-animation-timing-function: ease-out;
     -webkit-transform: translateY(0px);
   }
 
+  /* line 2170, ../sass/_hoverex-all.scss */
   52% {
     -webkit-transform: translateY(-24px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 2174, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
   }
 
+  /* line 2178, ../sass/_hoverex-all.scss */
   79% {
     -webkit-transform: translateY(-8px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 2182, ../sass/_hoverex-all.scss */
   88% {
     -webkit-transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
   }
 
+  /* line 2186, ../sass/_hoverex-all.scss */
   94% {
     -webkit-transform: translateY(-3px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 2190, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateY(0px);
   }
 }
 
 @keyframes bounceInDown {
+  /* line 2259, ../sass/_hoverex-all.scss */
   0% {
     -webkit-transform: translateY(-1000px);
     -ms-transform: translateY(-1000px);
     transform: translateY(-1000px);
   }
 
+  /* line 2262, ../sass/_hoverex-all.scss */
   34% {
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
@@ -17033,6 +17272,7 @@ flipInH {
     transform: translateY(0px);
   }
 
+  /* line 2266, ../sass/_hoverex-all.scss */
   52% {
     -webkit-transform: translateY(-24px);
     -ms-transform: translateY(-24px);
@@ -17041,6 +17281,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 2270, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
@@ -17049,6 +17290,7 @@ flipInH {
     animation-timing-function: ease-out;
   }
 
+  /* line 2274, ../sass/_hoverex-all.scss */
   79% {
     -webkit-transform: translateY(-8px);
     -ms-transform: translateY(-8px);
@@ -17057,6 +17299,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 2278, ../sass/_hoverex-all.scss */
   88% {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
@@ -17065,6 +17308,7 @@ flipInH {
     animation-timing-function: ease-out;
   }
 
+  /* line 2282, ../sass/_hoverex-all.scss */
   94% {
     -webkit-transform: translateY(-3px);
     -ms-transform: translateY(-3px);
@@ -17073,6 +17317,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 2286, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
@@ -17088,42 +17333,50 @@ flipInH {
 }
 
 @-webkit-keyframes bounce {
+  /* line 2297, ../sass/_hoverex-all.scss */
   0% {
     -webkit-animation-timing-function: ease-out;
     -webkit-transform: translateY(0px);
   }
 
+  /* line 2301, ../sass/_hoverex-all.scss */
   37% {
     -webkit-transform: translateY(-24px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 2305, ../sass/_hoverex-all.scss */
   54% {
     -webkit-transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
   }
 
+  /* line 2309, ../sass/_hoverex-all.scss */
   68% {
     -webkit-transform: translateY(-8px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 2313, ../sass/_hoverex-all.scss */
   82% {
     -webkit-transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
   }
 
+  /* line 2317, ../sass/_hoverex-all.scss */
   91% {
     -webkit-transform: translateY(-3px);
     -webkit-animation-timing-function: ease-in;
   }
 
+  /* line 2321, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateY(0px);
   }
 }
 
 @keyframes bounce {
+  /* line 2384, ../sass/_hoverex-all.scss */
   0% {
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
@@ -17132,6 +17385,7 @@ flipInH {
     transform: translateY(0px);
   }
 
+  /* line 2388, ../sass/_hoverex-all.scss */
   37% {
     -webkit-transform: translateY(-24px);
     -ms-transform: translateY(-24px);
@@ -17140,6 +17394,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 2392, ../sass/_hoverex-all.scss */
   54% {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
@@ -17148,6 +17403,7 @@ flipInH {
     animation-timing-function: ease-out;
   }
 
+  /* line 2396, ../sass/_hoverex-all.scss */
   68% {
     -webkit-transform: translateY(-8px);
     -ms-transform: translateY(-8px);
@@ -17156,6 +17412,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 2400, ../sass/_hoverex-all.scss */
   82% {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
@@ -17164,6 +17421,7 @@ flipInH {
     animation-timing-function: ease-out;
   }
 
+  /* line 2404, ../sass/_hoverex-all.scss */
   91% {
     -webkit-transform: translateY(-3px);
     -ms-transform: translateY(-3px);
@@ -17172,6 +17430,7 @@ flipInH {
     animation-timing-function: ease-in;
   }
 
+  /* line 2408, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
@@ -17187,29 +17446,34 @@ flipInH {
 }
 
 @-webkit-keyframes elasticInLeft {
+  /* line 2419, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-1000px);
     -webkit-animation-timing-function: ease-in-out;
   }
 
+  /* line 2424, ../sass/_hoverex-all.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(30px);
     -webkit-animation-timing-function: ease-in-out;
   }
 
+  /* line 2429, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: translateX(-10px);
     -webkit-animation-timing-function: ease-in-out;
   }
 
+  /* line 2433, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateX(0);
   }
 }
 
 @keyframes elasticInLeft {
+  /* line 2476, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-1000px);
@@ -17219,6 +17483,7 @@ flipInH {
     animation-timing-function: ease-in-out;
   }
 
+  /* line 2481, ../sass/_hoverex-all.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(30px);
@@ -17228,6 +17493,7 @@ flipInH {
     animation-timing-function: ease-in-out;
   }
 
+  /* line 2486, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
@@ -17236,6 +17502,7 @@ flipInH {
     animation-timing-function: ease-in-out;
   }
 
+  /* line 2490, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -17251,29 +17518,34 @@ flipInH {
 }
 
 @-webkit-keyframes elasticInRight {
+  /* line 2501, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(1000px);
     -webkit-animation-timing-function: ease-in-out;
   }
 
+  /* line 2506, ../sass/_hoverex-all.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(-30px);
     -webkit-animation-timing-function: ease-in-out;
   }
 
+  /* line 2511, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: translateX(10px);
     -webkit-animation-timing-function: ease-in-out;
   }
 
+  /* line 2515, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateX(0);
   }
 }
 
 @keyframes elasticInRight {
+  /* line 2558, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(1000px);
@@ -17283,6 +17555,7 @@ flipInH {
     animation-timing-function: ease-in-out;
   }
 
+  /* line 2563, ../sass/_hoverex-all.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(-30px);
@@ -17292,6 +17565,7 @@ flipInH {
     animation-timing-function: ease-in-out;
   }
 
+  /* line 2568, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: translateX(10px);
     -ms-transform: translateX(10px);
@@ -17300,6 +17574,7 @@ flipInH {
     animation-timing-function: ease-in-out;
   }
 
+  /* line 2572, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -17315,29 +17590,34 @@ flipInH {
 }
 
 @-webkit-keyframes elasticInUp {
+  /* line 2583, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(1000px);
     -webkit-animation-timing-function: ease-in-out;
   }
 
+  /* line 2588, ../sass/_hoverex-all.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateY(-30px);
     -webkit-animation-timing-function: ease-in-out;
   }
 
+  /* line 2593, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: translateY(10px);
     -webkit-animation-timing-function: ease-in-out;
   }
 
+  /* line 2597, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateY(0);
   }
 }
 
 @keyframes elasticInUp {
+  /* line 2640, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(1000px);
@@ -17347,6 +17627,7 @@ flipInH {
     animation-timing-function: ease-in-out;
   }
 
+  /* line 2645, ../sass/_hoverex-all.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateY(-30px);
@@ -17356,6 +17637,7 @@ flipInH {
     animation-timing-function: ease-in-out;
   }
 
+  /* line 2650, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: translateY(10px);
     -ms-transform: translateY(10px);
@@ -17364,6 +17646,7 @@ flipInH {
     animation-timing-function: ease-in-out;
   }
 
+  /* line 2654, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -17379,29 +17662,34 @@ flipInH {
 }
 
 @-webkit-keyframes elasticInDown {
+  /* line 2665, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-1000px);
     -webkit-animation-timing-function: ease-in-out;
   }
 
+  /* line 2670, ../sass/_hoverex-all.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateY(30px);
     -webkit-animation-timing-function: ease-in-out;
   }
 
+  /* line 2675, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: translateY(-10px);
     -webkit-animation-timing-function: ease-in-out;
   }
 
+  /* line 2679, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateY(0);
   }
 }
 
 @keyframes elasticInDown {
+  /* line 2722, ../sass/_hoverex-all.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-1000px);
@@ -17411,6 +17699,7 @@ flipInH {
     animation-timing-function: ease-in-out;
   }
 
+  /* line 2727, ../sass/_hoverex-all.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateY(30px);
@@ -17420,6 +17709,7 @@ flipInH {
     animation-timing-function: ease-in-out;
   }
 
+  /* line 2732, ../sass/_hoverex-all.scss */
   80% {
     -webkit-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
@@ -17428,6 +17718,7 @@ flipInH {
     animation-timing-function: ease-in-out;
   }
 
+  /* line 2736, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -17443,62 +17734,74 @@ flipInH {
 }
 
 @-webkit-keyframes shake {
+  /* line 2749, ../sass/_hoverex-all.scss */
   10% {
     -webkit-transform: translateX(7px);
   }
 
+  /* line 2753, ../sass/_hoverex-all.scss */
   30% {
     -webkit-transform: translateX(-7px);
   }
 
+  /* line 2757, ../sass/_hoverex-all.scss */
   50% {
     -webkit-transform: translateX(5px);
   }
 
+  /* line 2761, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: translateX(-5px);
   }
 
+  /* line 2765, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: translateX(3px);
   }
 
+  /* line 2769, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateX(0px);
   }
 }
 
 @keyframes shake {
+  /* line 2830, ../sass/_hoverex-all.scss */
   10% {
     -webkit-transform: translateX(7px);
     -ms-transform: translateX(7px);
     transform: translateX(7px);
   }
 
+  /* line 2834, ../sass/_hoverex-all.scss */
   30% {
     -webkit-transform: translateX(-7px);
     -ms-transform: translateX(-7px);
     transform: translateX(-7px);
   }
 
+  /* line 2838, ../sass/_hoverex-all.scss */
   50% {
     -webkit-transform: translateX(5px);
     -ms-transform: translateX(5px);
     transform: translateX(5px);
   }
 
+  /* line 2842, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: translateX(-5px);
     -ms-transform: translateX(-5px);
     transform: translateX(-5px);
   }
 
+  /* line 2846, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: translateX(3px);
     -ms-transform: translateX(3px);
     transform: translateX(3px);
   }
 
+  /* line 2850, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: translateX(0px);
     -ms-transform: translateX(0px);
@@ -17506,7 +17809,7 @@ flipInH {
   }
 }
 
-/* line 2854, ../sass/_hoverex-all.scss */
+/* line 2855, ../sass/_hoverex-all.scss */
 
 .shake {
   -webkit-animation-name: shake;
@@ -17514,62 +17817,74 @@ flipInH {
 }
 
 @-webkit-keyframes pendulum {
+  /* line 2863, ../sass/_hoverex-all.scss */
   10% {
     -webkit-transform: rotate(15deg);
   }
 
+  /* line 2864, ../sass/_hoverex-all.scss */
   30% {
     -webkit-transform: rotate(-10deg);
   }
 
+  /* line 2865, ../sass/_hoverex-all.scss */
   50% {
     -webkit-transform: rotate(5deg);
   }
 
+  /* line 2866, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: rotate(-5deg);
   }
 
+  /* line 2867, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: rotate(2deg);
   }
 
+  /* line 2868, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: rotate(0deg);
   }
 }
 
 @keyframes pendulum {
+  /* line 2890, ../sass/_hoverex-all.scss */
   10% {
     -webkit-transform: rotate(15deg);
     -ms-transform: rotate(15deg);
     transform: rotate(15deg);
   }
 
+  /* line 2891, ../sass/_hoverex-all.scss */
   30% {
     -webkit-transform: rotate(-10deg);
     -ms-transform: rotate(-10deg);
     transform: rotate(-10deg);
   }
 
+  /* line 2892, ../sass/_hoverex-all.scss */
   50% {
     -webkit-transform: rotate(5deg);
     -ms-transform: rotate(5deg);
     transform: rotate(5deg);
   }
 
+  /* line 2893, ../sass/_hoverex-all.scss */
   70% {
     -webkit-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);
   }
 
+  /* line 2894, ../sass/_hoverex-all.scss */
   90% {
     -webkit-transform: rotate(2deg);
     -ms-transform: rotate(2deg);
     transform: rotate(2deg);
   }
 
+  /* line 2895, ../sass/_hoverex-all.scss */
   100% {
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
@@ -17577,7 +17892,7 @@ flipInH {
   }
 }
 
-/* line 2897, ../sass/_hoverex-all.scss */
+/* line 2898, ../sass/_hoverex-all.scss */
 
 .pendulum {
   -webkit-animation-name: pendulum;
@@ -19758,20 +20073,24 @@ you can use the generic selector below, but it's slower:
 }
 
 @-webkit-keyframes Anim {
+  /* line 42, ../sass/_style.scss */
   from {
     opacity: 0;
   }
 
+  /* line 45, ../sass/_style.scss */
   to {
     opacity: 1;
   }
 }
 
 @keyframes Anim {
+  /* line 60, ../sass/_style.scss */
   from {
     opacity: 0;
   }
 
+  /* line 63, ../sass/_style.scss */
   to {
     opacity: 1;
   }
@@ -19783,7 +20102,6 @@ you can use the generic selector below, but it's slower:
   -webkit-animation: Anim ease-in 1;
   animation: Anim ease-in 1;
   opacity: 0;
-  -webkit-filter: alpha(opacity=70);
   filter: alpha(opacity=70);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
@@ -19799,20 +20117,24 @@ you can use the generic selector below, but it's slower:
 }
 
 @-webkit-keyframes Anim2 {
+  /* line 89, ../sass/_style.scss */
   from {
     opacity: 0;
   }
 
+  /* line 92, ../sass/_style.scss */
   to {
     opacity: 1;
   }
 }
 
 @keyframes Anim2 {
+  /* line 107, ../sass/_style.scss */
   from {
     opacity: 0;
   }
 
+  /* line 110, ../sass/_style.scss */
   to {
     opacity: 1;
   }
@@ -19824,7 +20146,6 @@ you can use the generic selector below, but it's slower:
   -webkit-animation: Anim2 ease-in 1;
   animation: Anim2 ease-in 1;
   opacity: 0;
-  -webkit-filter: alpha(opacity=70);
   filter: alpha(opacity=70);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
@@ -20063,7 +20384,6 @@ nav {
   text-decoration: none;
   /* Transitions */
   -webkit-transition: color .2s ease-in, border-top-color .2s ease-in;
-  -ms-transition: color .2s ease-in, border-top-color .2s ease-in;
   transition: color .2s ease-in, border-top-color .2s ease-in;
 }
 
@@ -20113,7 +20433,6 @@ nav {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   -webkit-transition: opacity .22s ease-in;
-  -ms-transition: opacity .22s ease-in;
   transition: opacity .22s ease-in;
 }
 
@@ -20124,7 +20443,6 @@ nav {
   position: absolute;
   height: 0px;
   -webkit-transition: height .15s ease-in;
-  -ms-transition: height .15s ease-in;
   transition: height .15s ease-in;
 }
 
@@ -20161,7 +20479,6 @@ nav {
   /* Background & effects */
   background: #FFF;
   -webkit-transition: color .2s ease-in, border-left-color .2s ease-in;
-  -ms-transition: color .2s ease-in, border-left-color .2s ease-in;
   transition: color .2s ease-in, border-left-color .2s ease-in;
 }
 
@@ -20228,7 +20545,7 @@ nav {
 
 /* Transitions and class for reduced height */
 
-/* line 440, ../sass/_style.scss */
+/* line 441, ../sass/_style.scss */
 
 .cbp-af-header #logo,
 .cbp-af-header #nav a {
@@ -20361,7 +20678,7 @@ nav {
   visibility: hidden;
 }
 
-/* line 546, ../sass/_style.scss */
+/* line 547, ../sass/_style.scss */
 
 .items a,
 .items a img {
@@ -20430,7 +20747,7 @@ nav {
   margin-right: 15px;
 }
 
-/* line 601, ../sass/_style.scss */
+/* line 602, ../sass/_style.scss */
 
 .filter li a:hover,
 .filter li a.active {
@@ -20448,7 +20765,6 @@ nav {
   border-bottom: 4px solid #e5e5e5;
   padding: 6px 20px 5px;
   -webkit-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -20515,12 +20831,11 @@ nav {
   z-index: 1;
 }
 
-/* line 672, ../sass/_style.scss */
+/* line 673, ../sass/_style.scss */
 
 .isotope,
 .isotope .isotope-item {
   -webkit-transition-duration: 1s;
-  -ms-transition-duration: 1s;
   transition-duration: 1s;
 }
 
@@ -20528,7 +20843,6 @@ nav {
 
 .isotope {
   -webkit-transition-property: height, width;
-  -ms-transition-property: height, width;
   transition-property: height, width;
 }
 
@@ -20536,17 +20850,15 @@ nav {
 
 .isotope .isotope-item {
   -webkit-transition-property: -webkit-transform, opacity;
-  -ms-transition-property: -ms-transform, opacity;
   transition-property: transform, opacity;
 }
 
-/* line 697, ../sass/_style.scss */
+/* line 699, ../sass/_style.scss */
 
 .isotope.no-transition,
 .isotope.no-transition .isotope-item,
 .isotope .isotope-item.no-transition {
   -webkit-transition-duration: 0s;
-  -ms-transition-duration: 0s;
   transition-duration: 0s;
 }
 
@@ -20765,14 +21077,14 @@ nav {
 
 /* Input label & textarea setting */
 
-/* line 882, ../sass/_style.scss */
+/* line 883, ../sass/_style.scss */
 
 .contact form input,
 .contact form textarea {
   font-family: 'latoregular', sans-serif;
-  -ms-transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
   border: none;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05) inset;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05) inset;
   color: #333;
   resize: vertical;
@@ -20820,7 +21132,6 @@ nav {
   background: #3498db;
   border-bottom: 4px solid #2980b9;
   -webkit-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -20835,23 +21146,24 @@ nav {
 
 /* Input & textarea when there's something missing  */
 
-/* line 946, ../sass/_style.scss */
+/* line 947, ../sass/_style.scss */
 
 .contact form input:required,
 .contact form textarea:required {
-  background: #FFF url(../img/invalid.png);
+  background: white url(../img/invalid.png);
   background-position: 98% 6px;
   background-repeat: no-repeat;
+  -webkit-box-shadow: inherit;
   box-shadow: inherit;
 }
 
 /* Input & textarea when valid */
 
-/* line 956, ../sass/_style.scss */
+/* line 957, ../sass/_style.scss */
 
 .contact form input:required:valid,
 .contact form textarea:required:valid {
-  background: #FFF url(../img/valid.png);
+  background: white url(../img/valid.png);
   background-position: 98% 6px;
   border: 1px solid #e5e5e5;
   background-repeat: no-repeat;
@@ -20860,12 +21172,13 @@ nav {
 
 /* Input & textarea when invalid */
 
-/* line 967, ../sass/_style.scss */
+/* line 968, ../sass/_style.scss */
 
 .contact form input:focus:invalid,
 .contact form textarea:focus:invalid {
-  background: #FFF url(../img/invalid-red.png) no-repeat 98% 6px;
+  background: white url(../img/invalid-red.png) no-repeat 98% 6px;
   border-color: #ec7e7e;
+  -webkit-box-shadow: 0 0 2px rgba(236, 126, 126, 0.7);
   box-shadow: 0 0 2px rgba(236, 126, 126, 0.7);
 }
 
@@ -20996,6 +21309,7 @@ nav {
     background: url("../img/headers/drupalcon-big-blurred-cropped.jpg") 30% 100% no-repeat fixed !important;
     background-position: center;
     background-size: cover;
+    -webkit-background-size: cover;
     background-attachment: fixed;
     /* FIXED FOR IE */
   }
@@ -21204,6 +21518,21 @@ nav {
 
 .sponsors h3 {
   color: #ffffff;
+}
+
+/* VENUE ================================================== */
+
+/* line 1239, ../sass/_style.scss */
+
+#venue {
+  padding: 0 0 25px;
+}
+
+/* line 1243, ../sass/_style.scss */
+
+#venue p {
+  font-size: 1.3rem;
+  font-family: 'latolight', sans-serif;
 }
 
 /* line 1, ../sass/_overwrites.scss */
